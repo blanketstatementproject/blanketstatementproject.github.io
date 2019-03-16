@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+<div style="text-align:center">
+<img src="https://cestlaz.github.io/img/knitting-tech-conference/top.jpg" width="300px" height="300px">
+</div>
 
-You can use the [editor on GitHub](https://github.com/blanket-statement/blanket-statement.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Looking forward to hearing all the great ideas at the CSTA Annual Conference but just can’t sit still? 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Want to help a child in distress by helping crowd-knit and crowd-crochet blankets that we’ll donate to [Project Linus](https://www.projectlinus.org/)?
 
-### Markdown
+Join us at the GitHub table in the vendors area. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+We will teach you how to knit or crochet, give you the yarn and the needles  and then set you loose to enjoy the conference. 
 
-```markdown
-Syntax highlighted code block
+If you already knit or crochet, come by the GitHub table, grab supplies, get back to the conference and knit away.
 
-# Header 1
-## Header 2
-### Header 3
+<div style="text-align:center">
+<img src="https://pbs.twimg.com/media/Cvke8R8WEAAx91h.jpg" width="300px" height="300px">
+</div>
 
-- Bulleted
-- List
+Instructions (if you already knit or crochet):
 
-1. Numbered
-2. List
+  - Use a worsted weight (medium weight) acrylic yarn using any pattern that makes you happy.
+  - Knit or crochet 7” x 9” blocks (or 9” X 7”, direction doesn’t matter)
+  - Drop off completed squares at the GitHub booth.
+  - YOU CAN BRING COMPLETED BLOCKS WITH YOU TO THE CONFERENCE
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+And if you want to bring your own supplies, knitting needles are permitted in carry on bags as per [TSA](https://www.tsa.gov/travel/security-screening/whatcanibring/items/knitting-needles).
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+For more information or if you have any questions, email [devorah.zamansky@gmail.com](mailto:devorah.zamansky@gmail.com)
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/blanket-statement/blanket-statement.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
