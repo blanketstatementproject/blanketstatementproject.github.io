@@ -462,3 +462,17 @@ header.masthead.masthead-inner .headline {
 .social-links li a:hover .inline-svg svg {
   color: var(--bs-teal-dark);
 }
+
+/* RSS Feed Styling */
+.text-orange-rss {
+  color: #ee802f;
+}
+
+.rss-widget .widget-title {
+  color: var(--bs-dark);
+}
+
+.btn-outline-teal:hover {
+  background-color: var(--bs-teal);
+  color: #ffffff;
+}

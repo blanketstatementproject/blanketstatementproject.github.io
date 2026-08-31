@@ -1,26 +1,94 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" 
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Community on Blanket Statement</title>
-    <link>//localhost:1313/categories/community/</link>
-    <description>Recent content in Community on Blanket Statement</description>
-    <generator>Hugo</generator>
+    <title>Community | Blanket Statement</title>
+    <link>/categories/community/</link>
+    <description>Recent posts in Community on Blanket Statement</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Feb 2026 16:00:00 -0500</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/community/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>blanketstatementproject@gmail.com (Blanket Statement Team)</managingEditor>
+    <webMaster>blanketstatementproject@gmail.com (Blanket Statement Team)</webMaster>
+    <copyright>Copyright © Blanket Statement 2026. All Rights Reserved.</copyright>
+    <lastBuildDate>Wed, 25 Feb 2026 16:00:00 -0500</lastBuildDate><atom:link href="/categories/community/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Crowdsourcing Warmth: Our Partnership with Project Linus</title>
-      <link>//localhost:1313/posts/crowdsourcing-warmth-project-linus/</link>
+      <link>/posts/crowdsourcing-warmth-project-linus/</link>
       <pubDate>Wed, 25 Feb 2026 16:00:00 -0500</pubDate>
-      <guid>//localhost:1313/posts/crowdsourcing-warmth-project-linus/</guid>
-      <description>&lt;p&gt;What happens after you drop off your finished 7” x 9” square at the Pickcode booth?&lt;/p&gt;&#xA;&lt;p&gt;Every square donated to Blanket Statement becomes part of a larger community quilt. In this post, we take a look behind the scenes at how hundreds of individual contributions become cozy blankets for &lt;strong&gt;Project Linus&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/img/yarn-logo.jpg&#34; alt=&#34;Yarn logo&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;about-project-linus&#34;&gt;About Project Linus&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.projectlinus.org/&#34;&gt;Project Linus&lt;/a&gt; is a national non-profit organization that provides handmade blankets to children who are seriously ill, traumatized, or otherwise in need. Since its founding in 1995, Project Linus has delivered more than &lt;strong&gt;10 million blankets&lt;/strong&gt; nationwide.&lt;/p&gt;</description>
+      <dc:creator>Devorah</dc:creator>
+      <guid isPermaLink="true">/posts/crowdsourcing-warmth-project-linus/</guid>
+      <description>How individual squares from conference attendees around the country are joined together to create blankets for Project Linus.</description>
+      <content:encoded><![CDATA[<p>What happens after you drop off your finished 7” x 9” square at the Pickcode booth?</p>
+<p>Every square donated to Blanket Statement becomes part of a larger community quilt. In this post, we take a look behind the scenes at how hundreds of individual contributions become cozy blankets for <strong>Project Linus</strong>.</p>
+<p><img src="/img/yarn-logo.jpg" alt="Yarn logo"></p>
+<h2 id="about-project-linus">About Project Linus</h2>
+<p><a href="https://www.projectlinus.org/">Project Linus</a> is a national non-profit organization that provides handmade blankets to children who are seriously ill, traumatized, or otherwise in need. Since its founding in 1995, Project Linus has delivered more than <strong>10 million blankets</strong> nationwide.</p>
+<h2 id="the-journey-of-a-blanket-block">The Journey of a Blanket Block</h2>
+<ol>
+<li><strong>Collection</strong>: Squares are gathered from conference participants, logged, and categorized by color palette.</li>
+<li><strong>Layout &amp; Arrangement</strong>: Volunteers arrange 24 to 35 squares into attractive patchwork designs (usually 4x6 or 5x7 grids).</li>
+<li><strong>Seaming</strong>: The blocks are crocheted or mattress-stitched together with coordinating yarn.</li>
+<li><strong>Bordering</strong>: A clean decorative border (single crochet or crab stitch) is added around the perimeter for durability and finish.</li>
+<li><strong>Quality Check &amp; Labeling</strong>: Each blanket receives an official Project Linus label and is inspected for safety (secure tails, softness, washability).</li>
+<li><strong>Delivery</strong>: Local chapters deliver the blankets to pediatric hospitals, shelters, and crisis centers.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>+-------+-------+-------+-------+
+</span></span><span style="display:flex;"><span>|  7x9  |  7x9  |  7x9  |  7x9  |
+</span></span><span style="display:flex;"><span>+-------+-------+-------+-------+
+</span></span><span style="display:flex;"><span>|  7x9  |  7x9  |  7x9  |  7x9  |
+</span></span><span style="display:flex;"><span>+-------+-------+-------+-------+
+</span></span><span style="display:flex;"><span>|  7x9  |  7x9  |  7x9  |  7x9  |
+</span></span><span style="display:flex;"><span>+-------+-------+-------+-------+
+</span></span><span style="display:flex;"><span>|  7x9  |  7x9  |  7x9  |  7x9  |
+</span></span><span style="display:flex;"><span>+-------+-------+-------+-------+
+</span></span><span style="display:flex;"><span>      --&gt; Finished 36&#34; x 45&#34; Blanket!
+</span></span></code></pre></div><h2 id="how-you-can-help-beyond-the-conference">How You Can Help Beyond the Conference</h2>
+<p>Can&rsquo;t attend in person? You can knit or crochet blocks at home and mail them to us, or start a Blanket Statement chapter at your own local meetup or school!</p>
+]]></content:encoded>
+      <category>Charity</category>
+      <category>Community</category>
+      <category>project-linus</category>
+      <category>volunteering</category>
+      <category>charity</category>
+      <category>blankets</category>
+      <media:content url="/img/yarn-logo.jpg" medium="image" />
     </item>
     <item>
       <title>Welcome to Blanket Statement</title>
-      <link>//localhost:1313/posts/welcome-to-blanket-statement/</link>
+      <link>/posts/welcome-to-blanket-statement/</link>
       <pubDate>Sun, 01 Feb 2026 09:00:00 -0500</pubDate>
-      <guid>//localhost:1313/posts/welcome-to-blanket-statement/</guid>
-      <description>&lt;p&gt;Welcome to &lt;strong&gt;Blanket Statement&lt;/strong&gt;!&lt;/p&gt;&#xA;&lt;p&gt;If you&amp;rsquo;ve ever attended an all-day conference, faculty meeting, or professional development workshop, you know how hard it can be to sit motionless for hours at a time. Many of us are kinesthetic learners: we need our hands engaged in rhythmic, low-cognitive-load activity to keep our minds alert and receptive.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Folks who knit or crochet when attending talks and meetings do so in order to help maintain focus on the talk. Using our hands keeps our brains from wandering from the speaker.&amp;rdquo;&lt;/p&gt;</description>
+      <dc:creator>Devorah</dc:creator>
+      <guid isPermaLink="true">/posts/welcome-to-blanket-statement/</guid>
+      <description>Why we started Blanket Statement and how we are turning conference fidgeting into warm blankets for children in need.</description>
+      <content:encoded><![CDATA[<p>Welcome to <strong>Blanket Statement</strong>!</p>
+<p>If you&rsquo;ve ever attended an all-day conference, faculty meeting, or professional development workshop, you know how hard it can be to sit motionless for hours at a time. Many of us are kinesthetic learners: we need our hands engaged in rhythmic, low-cognitive-load activity to keep our minds alert and receptive.</p>
+<blockquote>
+<p>&ldquo;Folks who knit or crochet when attending talks and meetings do so in order to help maintain focus on the talk. Using our hands keeps our brains from wandering from the speaker.&rdquo;</p>
+</blockquote>
+<h2 id="the-conference-dilemma">The Conference Dilemma</h2>
+<p>We&rsquo;ve all seen attendees staring at their smartphones during presentations. While some might be live-tweeting or taking notes, many are checking email, reading news, or scrolling through feeds — activities that actively compete for cognitive attention and pull focus away from the speaker.</p>
+<p>Knitting and crocheting do the exact opposite. Because the hand movements are repetitive and tactile, they satisfy the urge to fidget without drawing linguistic or analytical brain processing away from the presenter.</p>
+<p><img src="/img/balls-of-yarn.jpg" alt="Yarn balls and needles"></p>
+<h2 id="crowdsourcing-comfort">Crowdsourcing Comfort</h2>
+<p>Instead of just knitting for ourselves, Blanket Statement turns every conference hour into something tangible: <strong>7&quot; x 9&quot; knitted or crocheted squares</strong> that are seamed together into blankets for <strong>Project Linus</strong>, an organization providing security and comfort blankets to children who are ill, traumatized, or in need.</p>
+<h3 id="how-you-can-participate">How You Can Participate</h3>
+<ol>
+<li><strong>Stop by the Pickcode Booth</strong>: Grab a skein of yarn, a set of needles, or a crochet hook.</li>
+<li><strong>Knit or Crochet During Talks</strong>: Work on your 7&quot; x 9&quot; block throughout the day.</li>
+<li><strong>Drop Off &amp; Tag</strong>: Bring your completed square back to the booth, fill out a donor tag, and celebrate your contribution!</li>
+</ol>
+<p>We are thrilled to embark on this journey with you. Check back on this blog for progress updates, square counts, and helpful crafting tutorials!</p>
+]]></content:encoded>
+      <category>Announcements</category>
+      <category>Community</category>
+      <category>csta</category>
+      <category>knitting</category>
+      <category>fidgeting</category>
+      <category>welcome</category>
+      <media:content url="/img/yarn-logo.jpg" medium="image" />
     </item>
   </channel>
 </rss>

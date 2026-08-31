@@ -1,19 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" 
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Fidgeting on Blanket Statement</title>
-    <link>//localhost:1313/tags/fidgeting/</link>
-    <description>Recent content in Fidgeting on Blanket Statement</description>
-    <generator>Hugo</generator>
+    <title>Fidgeting | Blanket Statement</title>
+    <link>/tags/fidgeting/</link>
+    <description>Recent posts in Fidgeting on Blanket Statement</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Feb 2026 09:00:00 -0500</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/fidgeting/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>blanketstatementproject@gmail.com (Blanket Statement Team)</managingEditor>
+    <webMaster>blanketstatementproject@gmail.com (Blanket Statement Team)</webMaster>
+    <copyright>Copyright © Blanket Statement 2026. All Rights Reserved.</copyright>
+    <lastBuildDate>Sun, 01 Feb 2026 09:00:00 -0500</lastBuildDate><atom:link href="/tags/fidgeting/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Welcome to Blanket Statement</title>
-      <link>//localhost:1313/posts/welcome-to-blanket-statement/</link>
+      <link>/posts/welcome-to-blanket-statement/</link>
       <pubDate>Sun, 01 Feb 2026 09:00:00 -0500</pubDate>
-      <guid>//localhost:1313/posts/welcome-to-blanket-statement/</guid>
-      <description>&lt;p&gt;Welcome to &lt;strong&gt;Blanket Statement&lt;/strong&gt;!&lt;/p&gt;&#xA;&lt;p&gt;If you&amp;rsquo;ve ever attended an all-day conference, faculty meeting, or professional development workshop, you know how hard it can be to sit motionless for hours at a time. Many of us are kinesthetic learners: we need our hands engaged in rhythmic, low-cognitive-load activity to keep our minds alert and receptive.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Folks who knit or crochet when attending talks and meetings do so in order to help maintain focus on the talk. Using our hands keeps our brains from wandering from the speaker.&amp;rdquo;&lt;/p&gt;</description>
+      <dc:creator>Devorah</dc:creator>
+      <guid isPermaLink="true">/posts/welcome-to-blanket-statement/</guid>
+      <description>Why we started Blanket Statement and how we are turning conference fidgeting into warm blankets for children in need.</description>
+      <content:encoded><![CDATA[<p>Welcome to <strong>Blanket Statement</strong>!</p>
+<p>If you&rsquo;ve ever attended an all-day conference, faculty meeting, or professional development workshop, you know how hard it can be to sit motionless for hours at a time. Many of us are kinesthetic learners: we need our hands engaged in rhythmic, low-cognitive-load activity to keep our minds alert and receptive.</p>
+<blockquote>
+<p>&ldquo;Folks who knit or crochet when attending talks and meetings do so in order to help maintain focus on the talk. Using our hands keeps our brains from wandering from the speaker.&rdquo;</p>
+</blockquote>
+<h2 id="the-conference-dilemma">The Conference Dilemma</h2>
+<p>We&rsquo;ve all seen attendees staring at their smartphones during presentations. While some might be live-tweeting or taking notes, many are checking email, reading news, or scrolling through feeds — activities that actively compete for cognitive attention and pull focus away from the speaker.</p>
+<p>Knitting and crocheting do the exact opposite. Because the hand movements are repetitive and tactile, they satisfy the urge to fidget without drawing linguistic or analytical brain processing away from the presenter.</p>
+<p><img src="/img/balls-of-yarn.jpg" alt="Yarn balls and needles"></p>
+<h2 id="crowdsourcing-comfort">Crowdsourcing Comfort</h2>
+<p>Instead of just knitting for ourselves, Blanket Statement turns every conference hour into something tangible: <strong>7&quot; x 9&quot; knitted or crocheted squares</strong> that are seamed together into blankets for <strong>Project Linus</strong>, an organization providing security and comfort blankets to children who are ill, traumatized, or in need.</p>
+<h3 id="how-you-can-participate">How You Can Participate</h3>
+<ol>
+<li><strong>Stop by the Pickcode Booth</strong>: Grab a skein of yarn, a set of needles, or a crochet hook.</li>
+<li><strong>Knit or Crochet During Talks</strong>: Work on your 7&quot; x 9&quot; block throughout the day.</li>
+<li><strong>Drop Off &amp; Tag</strong>: Bring your completed square back to the booth, fill out a donor tag, and celebrate your contribution!</li>
+</ol>
+<p>We are thrilled to embark on this journey with you. Check back on this blog for progress updates, square counts, and helpful crafting tutorials!</p>
+]]></content:encoded>
+      <category>Announcements</category>
+      <category>Community</category>
+      <category>csta</category>
+      <category>knitting</category>
+      <category>fidgeting</category>
+      <category>welcome</category>
+      <media:content url="/img/yarn-logo.jpg" medium="image" />
     </item>
   </channel>
 </rss>

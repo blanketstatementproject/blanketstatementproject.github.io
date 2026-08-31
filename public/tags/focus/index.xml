@@ -1,19 +1,89 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" 
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Focus on Blanket Statement</title>
-    <link>//localhost:1313/tags/focus/</link>
-    <description>Recent content in Focus on Blanket Statement</description>
-    <generator>Hugo</generator>
+    <title>Focus | Blanket Statement</title>
+    <link>/tags/focus/</link>
+    <description>Recent posts in Focus on Blanket Statement</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Feb 2026 14:30:00 -0500</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/focus/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>blanketstatementproject@gmail.com (Blanket Statement Team)</managingEditor>
+    <webMaster>blanketstatementproject@gmail.com (Blanket Statement Team)</webMaster>
+    <copyright>Copyright © Blanket Statement 2026. All Rights Reserved.</copyright>
+    <lastBuildDate>Tue, 10 Feb 2026 14:30:00 -0500</lastBuildDate><atom:link href="/tags/focus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Science of Productive Fidgeting</title>
-      <link>//localhost:1313/posts/the-science-of-productive-fidgeting/</link>
+      <link>/posts/the-science-of-productive-fidgeting/</link>
       <pubDate>Tue, 10 Feb 2026 14:30:00 -0500</pubDate>
-      <guid>//localhost:1313/posts/the-science-of-productive-fidgeting/</guid>
-      <description>&lt;p&gt;Why do so many educators, engineers, and researchers knit during long seminars? Is it a distraction, or is it actually a powerful tool for deep listening?&lt;/p&gt;&#xA;&lt;p&gt;Cognitive science has increasingly validated what craft enthusiasts have known intuitively for decades: &lt;strong&gt;low-intensity tactile activity can significantly enhance working memory and auditory retention.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-yerkes-dodson-law-and-arousal-regulation&#34;&gt;The Yerkes-Dodson Law and Arousal Regulation&lt;/h2&gt;&#xA;&lt;p&gt;The Yerkes-Dodson Law describes the relationship between psychological arousal and cognitive performance:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Performance&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  ^&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  |        Optimal Focus&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  |            /\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  |           /  \&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  |          /    \&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  |  Under-        Over-&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  |  arousal       arousal&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  +------------------------&amp;gt; Arousal Level&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;When sitting still during a passive lecture, the brain&amp;rsquo;s baseline arousal drops, leading to daydreaming or the impulse to check one&amp;rsquo;s phone. Repetitive micro-movements—like forming a knit stitch—provide just enough sensory stimulation to keep the nervous system in the &lt;strong&gt;optimal focus zone&lt;/strong&gt; without overloading working memory.&lt;/p&gt;</description>
+      <dc:creator>Blanket Statement Team</dc:creator>
+      <guid isPermaLink="true">/posts/the-science-of-productive-fidgeting/</guid>
+      <description>Exploring cognitive research on motor movement, attention span, working memory, and why tactile tasks enhance listening.</description>
+      <content:encoded><![CDATA[<p>Why do so many educators, engineers, and researchers knit during long seminars? Is it a distraction, or is it actually a powerful tool for deep listening?</p>
+<p>Cognitive science has increasingly validated what craft enthusiasts have known intuitively for decades: <strong>low-intensity tactile activity can significantly enhance working memory and auditory retention.</strong></p>
+<h2 id="the-yerkes-dodson-law-and-arousal-regulation">The Yerkes-Dodson Law and Arousal Regulation</h2>
+<p>The Yerkes-Dodson Law describes the relationship between psychological arousal and cognitive performance:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>Performance
+</span></span><span style="display:flex;"><span>  ^
+</span></span><span style="display:flex;"><span>  |        Optimal Focus
+</span></span><span style="display:flex;"><span>  |            /\
+</span></span><span style="display:flex;"><span>  |           /  \
+</span></span><span style="display:flex;"><span>  |          /    \
+</span></span><span style="display:flex;"><span>  |  Under-        Over-
+</span></span><span style="display:flex;"><span>  |  arousal       arousal
+</span></span><span style="display:flex;"><span>  +------------------------&gt; Arousal Level
+</span></span></code></pre></div><p>When sitting still during a passive lecture, the brain&rsquo;s baseline arousal drops, leading to daydreaming or the impulse to check one&rsquo;s phone. Repetitive micro-movements—like forming a knit stitch—provide just enough sensory stimulation to keep the nervous system in the <strong>optimal focus zone</strong> without overloading working memory.</p>
+<h2 id="tactile-motion-vs-digital-multi-tasking">Tactile Motion vs. Digital Multi-Tasking</h2>
+<p>Research contrasting tactile crafts with digital smartphone usage reveals a crucial distinction:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Activity</th>
+          <th style="text-align: left">Working Memory Load</th>
+          <th style="text-align: left">Visual / Linguistic Interference</th>
+          <th style="text-align: left">Retention Impact</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Knitting / Crocheting</strong></td>
+          <td style="text-align: left">Low (Automatic motor loop)</td>
+          <td style="text-align: left">Minimal</td>
+          <td style="text-align: left"><strong>Positive (+15–20%)</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Doodling</strong></td>
+          <td style="text-align: left">Low</td>
+          <td style="text-align: left">Low</td>
+          <td style="text-align: left"><strong>Positive (+29%)</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Smartphone Scrolling</strong></td>
+          <td style="text-align: left">High</td>
+          <td style="text-align: left">Severe (Linguistic conflict)</td>
+          <td style="text-align: left"><strong>Negative (-40%)</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Sitting Motionless</strong></td>
+          <td style="text-align: left">Variable</td>
+          <td style="text-align: left">Mind-wandering risk</td>
+          <td style="text-align: left"><strong>Baseline</strong></td>
+      </tr>
+  </tbody>
+</table>
+<p>A famous 2009 study by psychologist Jackie Andrade demonstrated that participants who doodled while listening to a monotonous telephone message retained <strong>29% more information</strong> than non-doodlers. Knitting operates on identical neurological pathways.</p>
+<h2 id="summary">Summary</h2>
+<p>Next time you pull out yarn and needles during a keynote, know that you are actively optimizing your brain for learning—and creating a warm blanket for a child in need at the same time.</p>
+]]></content:encoded>
+      <category>Research</category>
+      <category>Productivity</category>
+      <category>cognitive-science</category>
+      <category>education</category>
+      <category>focus</category>
+      <category>research</category>
+      <media:content url="/img/knitted-squares.jpg" medium="image" />
     </item>
   </channel>
 </rss>

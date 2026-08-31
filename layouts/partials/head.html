@@ -20,9 +20,18 @@
 <link href="{{ "css/landing-page.min.css" | relURL }}" rel="stylesheet">
 <link href="{{ "css/custom.css" | relURL }}" rel="stylesheet">
 
-<!-- RSS Feed -->
+<!-- RSS Feed Autodiscovery -->
 {{ with .OutputFormats.Get "rss" }}
+<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ if $.IsHome }}{{ site.Title }}{{ else }}{{ $.Title }} | {{ site.Title }}{{ end }}">
+{{ end }}
+{{ if not (.OutputFormats.Get "rss") }}
+  {{ with (site.GetPage "/posts").OutputFormats.Get "rss" }}
+<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ site.Title }} - Blog">
+  {{ else }}
+    {{ with site.Home.OutputFormats.Get "rss" }}
 <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ site.Title }}">
+    {{ end }}
+  {{ end }}
 {{ end }}
 
 <!-- Open Graph / Meta -->

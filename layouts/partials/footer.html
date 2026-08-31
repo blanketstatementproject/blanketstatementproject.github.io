@@ -48,7 +48,7 @@
             </li>
           {{ end }}
           <li class="list-inline-item">
-            <a href="{{ "posts/index.xml" | relURL }}" aria-label="RSS Feed" title="RSS Feed">
+            <a href="{{ with (site.GetPage "/posts").OutputFormats.Get "rss" }}{{ .RelPermalink }}{{ else }}{{ with site.Home.OutputFormats.Get "rss" }}{{ .RelPermalink }}{{ else }}{{ "index.xml" | relURL }}{{ end }}{{ end }}" aria-label="RSS Feed" title="RSS Feed">
               <i class="fas fa-rss-square fa-2x fa-fw"></i>
             </a>
           </li>

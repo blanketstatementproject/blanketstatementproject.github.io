@@ -1,19 +1,67 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" 
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Howto on Blanket Statement</title>
-    <link>//localhost:1313/tags/howto/</link>
-    <description>Recent content in Howto on Blanket Statement</description>
-    <generator>Hugo</generator>
+    <title>Howto | Blanket Statement</title>
+    <link>/tags/howto/</link>
+    <description>Recent posts in Howto on Blanket Statement</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Feb 2026 11:00:00 -0500</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/howto/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>blanketstatementproject@gmail.com (Blanket Statement Team)</managingEditor>
+    <webMaster>blanketstatementproject@gmail.com (Blanket Statement Team)</webMaster>
+    <copyright>Copyright © Blanket Statement 2026. All Rights Reserved.</copyright>
+    <lastBuildDate>Wed, 18 Feb 2026 11:00:00 -0500</lastBuildDate><atom:link href="/tags/howto/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Beginner&#39;s Guide to Knitting 7” x 9” Squares</title>
-      <link>//localhost:1313/posts/beginner-guide-to-knitting-squares/</link>
+      <link>/posts/beginner-guide-to-knitting-squares/</link>
       <pubDate>Wed, 18 Feb 2026 11:00:00 -0500</pubDate>
-      <guid>//localhost:1313/posts/beginner-guide-to-knitting-squares/</guid>
-      <description>&lt;p&gt;Never held a pair of knitting needles before? No problem! Knitting a 7” x 9” blanket block is the single best starter project. There are no complicated increases or decreases—just a straightforward rectangle worked in classic &lt;strong&gt;Garter Stitch&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;materials-needed&#34;&gt;Materials Needed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Yarn&lt;/strong&gt;: 1 skein worsted weight (medium #4) acrylic or washable wool.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Needles&lt;/strong&gt;: US Size 8 (5.0 mm) or Size 9 (5.5 mm).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Ruler&lt;/strong&gt;: The ruler printed on the ball band, or any standard measuring tape.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tapestry Needle&lt;/strong&gt;: To weave in your yarn ends.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/img/knitted-squares.jpg&#34; alt=&#34;Knitted squares sample&#34;&gt;&lt;/p&gt;</description>
+      <dc:creator>Devorah</dc:creator>
+      <guid isPermaLink="true">/posts/beginner-guide-to-knitting-squares/</guid>
+      <description>Everything you need to know about casting on, garter stitch, gauge, and completing your first blanket block.</description>
+      <content:encoded><![CDATA[<p>Never held a pair of knitting needles before? No problem! Knitting a 7” x 9” blanket block is the single best starter project. There are no complicated increases or decreases—just a straightforward rectangle worked in classic <strong>Garter Stitch</strong>.</p>
+<h2 id="materials-needed">Materials Needed</h2>
+<ul>
+<li><strong>Yarn</strong>: 1 skein worsted weight (medium #4) acrylic or washable wool.</li>
+<li><strong>Needles</strong>: US Size 8 (5.0 mm) or Size 9 (5.5 mm).</li>
+<li><strong>Ruler</strong>: The ruler printed on the ball band, or any standard measuring tape.</li>
+<li><strong>Tapestry Needle</strong>: To weave in your yarn ends.</li>
+</ul>
+<p><img src="/img/knitted-squares.jpg" alt="Knitted squares sample"></p>
+<h2 id="step-by-step-instructions">Step-by-Step Instructions</h2>
+<h3 id="step-1-cast-on">Step 1: Cast On</h3>
+<p>Cast on approximately <strong>28 to 34 stitches</strong> (depending on your needle size and yarn tension).</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>[ Needle ] ===o===o===o===o===o===o===o=== [ Cast on 30 sts ]
+</span></span></code></pre></div><p><em>Tip: Measure your cast-on row against the ball band ruler. If it is 7 inches wide, you are ready to knit!</em></p>
+<h3 id="step-2-the-garter-stitch">Step 2: The Garter Stitch</h3>
+<p>Every single row is worked in the <strong>knit stitch</strong>:</p>
+<ol>
+<li>Insert right needle into the front of the first stitch from left to right.</li>
+<li>Wrap working yarn counter-clockwise around the right needle.</li>
+<li>Pull the new loop through and slide the old stitch off the left needle.</li>
+<li>Repeat across the row!</li>
+</ol>
+<h3 id="step-3-knit-until-9-inches">Step 3: Knit Until 9 Inches</h3>
+<p>Continue knitting every row until the piece measures <strong>9 inches</strong> from your cast-on edge. <em>(Note: 9” x 7” is also fine—direction doesn&rsquo;t matter!)</em></p>
+<h3 id="step-4-bind-off">Step 4: Bind Off</h3>
+<ol>
+<li>Knit two stitches.</li>
+<li>Use the left needle to lift the first stitch over the second stitch and off the needle.</li>
+<li>Knit the next stitch and repeat until one loop remains.</li>
+<li>Cut the yarn leaving a 6-inch tail, pull through the loop, and tighten.</li>
+</ol>
+<h2 id="ready-to-turn-in-your-square">Ready to Turn In Your Square?</h2>
+<p>Bring your completed block to the <strong>Pickcode booth</strong> at the conference, or email us at <strong><a href="mailto:blanketstatementproject@gmail.com">blanketstatementproject@gmail.com</a></strong> for shipping instructions!</p>
+]]></content:encoded>
+      <category>Tutorials</category>
+      <category>Knitting</category>
+      <category>knitting</category>
+      <category>beginners</category>
+      <category>tutorial</category>
+      <category>howto</category>
+      <media:content url="/img/balls-of-yarn.jpg" medium="image" />
     </item>
   </channel>
 </rss>

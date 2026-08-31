@@ -1,61 +1,306 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" 
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Blanket Statement</title>
-    <link>//localhost:1313/</link>
-    <description>Recent content on Blanket Statement</description>
-    <generator>Hugo</generator>
+    <link>/</link>
+    <description>Blanket Statement advocates productive fidgeting at conferences. Fidget Productively at CSTA and beyond.</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Mar 2026 12:00:00 -0500</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>blanketstatementproject@gmail.com (Blanket Statement Team)</managingEditor>
+    <webMaster>blanketstatementproject@gmail.com (Blanket Statement Team)</webMaster>
+    <copyright>Copyright © Blanket Statement 2026. All Rights Reserved.</copyright>
+    <lastBuildDate>Sun, 01 Mar 2026 12:00:00 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo Markdown Styling &amp; Formatting Guide</title>
-      <link>//localhost:1313/posts/markdown-styling-and-syntax-guide/</link>
+      <link>/posts/markdown-styling-and-syntax-guide/</link>
       <pubDate>Sun, 01 Mar 2026 12:00:00 -0500</pubDate>
-      <guid>//localhost:1313/posts/markdown-styling-and-syntax-guide/</guid>
-      <description>&lt;p&gt;This starter template includes rich formatting support for technical writing, tutorial posts, and personal blogging. Below is a preview of the typography and components.&lt;/p&gt;&#xA;&lt;h2 id=&#34;headings--typography&#34;&gt;Headings &amp;amp; Typography&lt;/h2&gt;&#xA;&lt;p&gt;Here is standard body text with &lt;strong&gt;bold text&lt;/strong&gt;, &lt;em&gt;italic text&lt;/em&gt;, and &lt;code&gt;inline code&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;subheading-level-3&#34;&gt;Subheading Level 3&lt;/h3&gt;&#xA;&lt;p&gt;Paragraph text flows smoothly with readable line heights and carefully tuned margins matching the Blanket Statement visual identity.&lt;/p&gt;&#xA;&lt;h4 id=&#34;subheading-level-4&#34;&gt;Subheading Level 4&lt;/h4&gt;&#xA;&lt;p&gt;Lists are formatted with clean spacing:&lt;/p&gt;</description>
+      <dc:creator>Blanket Statement Team</dc:creator>
+      <guid isPermaLink="true">/posts/markdown-styling-and-syntax-guide/</guid>
+      <description>A comprehensive showcase of typography, code highlighting, tables, quotes, and media formatting available in this Hugo blog starter.</description>
+      <content:encoded><![CDATA[<p>This starter template includes rich formatting support for technical writing, tutorial posts, and personal blogging. Below is a preview of the typography and components.</p>
+<h2 id="headings--typography">Headings &amp; Typography</h2>
+<p>Here is standard body text with <strong>bold text</strong>, <em>italic text</em>, and <code>inline code</code>.</p>
+<h3 id="subheading-level-3">Subheading Level 3</h3>
+<p>Paragraph text flows smoothly with readable line heights and carefully tuned margins matching the Blanket Statement visual identity.</p>
+<h4 id="subheading-level-4">Subheading Level 4</h4>
+<p>Lists are formatted with clean spacing:</p>
+<ul>
+<li>First bullet point with helpful context</li>
+<li>Second bullet point with <a href="/">a link to home</a></li>
+<li>Third bullet point with embedded sub-items:
+<ul>
+<li>Sub-item A</li>
+<li>Sub-item B</li>
+</ul>
+</li>
+</ul>
+<h2 id="blockquotes">Blockquotes</h2>
+<blockquote>
+<p>&ldquo;Productive fidgeting transforms passive listening into active, engaged presence while building something beautiful for others.&rdquo;</p>
+</blockquote>
+<h2 id="code-syntax-highlighting">Code Syntax Highlighting</h2>
+<p>Hugo&rsquo;s built-in Chroma syntax engine formats code with high contrast:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">knit_square</span>(stitches<span style="color:#f92672">=</span><span style="color:#ae81ff">30</span>, rows<span style="color:#f92672">=</span><span style="color:#ae81ff">48</span>):
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;&#34;&#34;Simulate knitting a 7x9 inch square.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    fabric <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> r <span style="color:#f92672">in</span> range(rows):
+</span></span><span style="display:flex;"><span>        fabric<span style="color:#f92672">.</span>append([<span style="color:#e6db74">&#34;knit&#34;</span> <span style="color:#66d9ef">for</span> _ <span style="color:#f92672">in</span> range(stitches)])
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Finished square with </span><span style="color:#e6db74">{</span>rows<span style="color:#e6db74">}</span><span style="color:#e6db74"> rows of </span><span style="color:#e6db74">{</span>stitches<span style="color:#e6db74">}</span><span style="color:#e6db74"> stitches!&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> fabric
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;__main__&#34;</span>:
+</span></span><span style="display:flex;"><span>    knit_square()
+</span></span></code></pre></div><p>And in Go / Hugo template syntax:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span>{{ <span style="color:#66d9ef">range</span> <span style="color:#a6e22e">where</span> .<span style="color:#a6e22e">Site</span>.<span style="color:#a6e22e">RegularPages</span> <span style="color:#e6db74">&#34;Section&#34;</span> <span style="color:#e6db74">&#34;posts&#34;</span> }}
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#a6e22e">article</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#a6e22e">h2</span>&gt;{{ .<span style="color:#a6e22e">Title</span> }}&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">h2</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#a6e22e">p</span>&gt;{{ .<span style="color:#a6e22e">Summary</span> }}&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">p</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">article</span>&gt;
+</span></span><span style="display:flex;"><span>{{ <span style="color:#a6e22e">end</span> }}
+</span></span></code></pre></div><h2 id="tables">Tables</h2>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Metric</th>
+          <th style="text-align: left">Target</th>
+          <th style="text-align: left">Notes</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Block Width</strong></td>
+          <td style="text-align: left">7 inches</td>
+          <td style="text-align: left">Standard size</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Block Length</strong></td>
+          <td style="text-align: left">9 inches</td>
+          <td style="text-align: left">Direction doesn&rsquo;t matter</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Yarn Weight</strong></td>
+          <td style="text-align: left">Worsted (#4)</td>
+          <td style="text-align: left">Washable acrylic or wool blend</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Needle Size</strong></td>
+          <td style="text-align: left">US 8 (5.0mm)</td>
+          <td style="text-align: left">Provides flexible drape</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="image-embeds">Image Embeds</h2>
+<p>Images are automatically responsive with rounded corners and subtle shadows:</p>
+<p><img src="/img/balls-of-yarn.jpg" alt="Knitting with colorful yarn"></p>
+<p>Enjoy writing your posts with Hugo!</p>
+]]></content:encoded>
+      <category>Tutorials</category>
+      <category>Tech</category>
+      <category>hugo</category>
+      <category>markdown</category>
+      <category>guide</category>
+      <category>starter</category>
+      <media:content url="/img/knitted-squares.jpg" medium="image" />
     </item>
     <item>
       <title>Crowdsourcing Warmth: Our Partnership with Project Linus</title>
-      <link>//localhost:1313/posts/crowdsourcing-warmth-project-linus/</link>
+      <link>/posts/crowdsourcing-warmth-project-linus/</link>
       <pubDate>Wed, 25 Feb 2026 16:00:00 -0500</pubDate>
-      <guid>//localhost:1313/posts/crowdsourcing-warmth-project-linus/</guid>
-      <description>&lt;p&gt;What happens after you drop off your finished 7” x 9” square at the Pickcode booth?&lt;/p&gt;&#xA;&lt;p&gt;Every square donated to Blanket Statement becomes part of a larger community quilt. In this post, we take a look behind the scenes at how hundreds of individual contributions become cozy blankets for &lt;strong&gt;Project Linus&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/img/yarn-logo.jpg&#34; alt=&#34;Yarn logo&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;about-project-linus&#34;&gt;About Project Linus&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.projectlinus.org/&#34;&gt;Project Linus&lt;/a&gt; is a national non-profit organization that provides handmade blankets to children who are seriously ill, traumatized, or otherwise in need. Since its founding in 1995, Project Linus has delivered more than &lt;strong&gt;10 million blankets&lt;/strong&gt; nationwide.&lt;/p&gt;</description>
+      <dc:creator>Devorah</dc:creator>
+      <guid isPermaLink="true">/posts/crowdsourcing-warmth-project-linus/</guid>
+      <description>How individual squares from conference attendees around the country are joined together to create blankets for Project Linus.</description>
+      <content:encoded><![CDATA[<p>What happens after you drop off your finished 7” x 9” square at the Pickcode booth?</p>
+<p>Every square donated to Blanket Statement becomes part of a larger community quilt. In this post, we take a look behind the scenes at how hundreds of individual contributions become cozy blankets for <strong>Project Linus</strong>.</p>
+<p><img src="/img/yarn-logo.jpg" alt="Yarn logo"></p>
+<h2 id="about-project-linus">About Project Linus</h2>
+<p><a href="https://www.projectlinus.org/">Project Linus</a> is a national non-profit organization that provides handmade blankets to children who are seriously ill, traumatized, or otherwise in need. Since its founding in 1995, Project Linus has delivered more than <strong>10 million blankets</strong> nationwide.</p>
+<h2 id="the-journey-of-a-blanket-block">The Journey of a Blanket Block</h2>
+<ol>
+<li><strong>Collection</strong>: Squares are gathered from conference participants, logged, and categorized by color palette.</li>
+<li><strong>Layout &amp; Arrangement</strong>: Volunteers arrange 24 to 35 squares into attractive patchwork designs (usually 4x6 or 5x7 grids).</li>
+<li><strong>Seaming</strong>: The blocks are crocheted or mattress-stitched together with coordinating yarn.</li>
+<li><strong>Bordering</strong>: A clean decorative border (single crochet or crab stitch) is added around the perimeter for durability and finish.</li>
+<li><strong>Quality Check &amp; Labeling</strong>: Each blanket receives an official Project Linus label and is inspected for safety (secure tails, softness, washability).</li>
+<li><strong>Delivery</strong>: Local chapters deliver the blankets to pediatric hospitals, shelters, and crisis centers.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>+-------+-------+-------+-------+
+</span></span><span style="display:flex;"><span>|  7x9  |  7x9  |  7x9  |  7x9  |
+</span></span><span style="display:flex;"><span>+-------+-------+-------+-------+
+</span></span><span style="display:flex;"><span>|  7x9  |  7x9  |  7x9  |  7x9  |
+</span></span><span style="display:flex;"><span>+-------+-------+-------+-------+
+</span></span><span style="display:flex;"><span>|  7x9  |  7x9  |  7x9  |  7x9  |
+</span></span><span style="display:flex;"><span>+-------+-------+-------+-------+
+</span></span><span style="display:flex;"><span>|  7x9  |  7x9  |  7x9  |  7x9  |
+</span></span><span style="display:flex;"><span>+-------+-------+-------+-------+
+</span></span><span style="display:flex;"><span>      --&gt; Finished 36&#34; x 45&#34; Blanket!
+</span></span></code></pre></div><h2 id="how-you-can-help-beyond-the-conference">How You Can Help Beyond the Conference</h2>
+<p>Can&rsquo;t attend in person? You can knit or crochet blocks at home and mail them to us, or start a Blanket Statement chapter at your own local meetup or school!</p>
+]]></content:encoded>
+      <category>Charity</category>
+      <category>Community</category>
+      <category>project-linus</category>
+      <category>volunteering</category>
+      <category>charity</category>
+      <category>blankets</category>
+      <media:content url="/img/yarn-logo.jpg" medium="image" />
     </item>
     <item>
       <title>A Beginner&#39;s Guide to Knitting 7” x 9” Squares</title>
-      <link>//localhost:1313/posts/beginner-guide-to-knitting-squares/</link>
+      <link>/posts/beginner-guide-to-knitting-squares/</link>
       <pubDate>Wed, 18 Feb 2026 11:00:00 -0500</pubDate>
-      <guid>//localhost:1313/posts/beginner-guide-to-knitting-squares/</guid>
-      <description>&lt;p&gt;Never held a pair of knitting needles before? No problem! Knitting a 7” x 9” blanket block is the single best starter project. There are no complicated increases or decreases—just a straightforward rectangle worked in classic &lt;strong&gt;Garter Stitch&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;materials-needed&#34;&gt;Materials Needed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Yarn&lt;/strong&gt;: 1 skein worsted weight (medium #4) acrylic or washable wool.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Needles&lt;/strong&gt;: US Size 8 (5.0 mm) or Size 9 (5.5 mm).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Ruler&lt;/strong&gt;: The ruler printed on the ball band, or any standard measuring tape.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tapestry Needle&lt;/strong&gt;: To weave in your yarn ends.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/img/knitted-squares.jpg&#34; alt=&#34;Knitted squares sample&#34;&gt;&lt;/p&gt;</description>
+      <dc:creator>Devorah</dc:creator>
+      <guid isPermaLink="true">/posts/beginner-guide-to-knitting-squares/</guid>
+      <description>Everything you need to know about casting on, garter stitch, gauge, and completing your first blanket block.</description>
+      <content:encoded><![CDATA[<p>Never held a pair of knitting needles before? No problem! Knitting a 7” x 9” blanket block is the single best starter project. There are no complicated increases or decreases—just a straightforward rectangle worked in classic <strong>Garter Stitch</strong>.</p>
+<h2 id="materials-needed">Materials Needed</h2>
+<ul>
+<li><strong>Yarn</strong>: 1 skein worsted weight (medium #4) acrylic or washable wool.</li>
+<li><strong>Needles</strong>: US Size 8 (5.0 mm) or Size 9 (5.5 mm).</li>
+<li><strong>Ruler</strong>: The ruler printed on the ball band, or any standard measuring tape.</li>
+<li><strong>Tapestry Needle</strong>: To weave in your yarn ends.</li>
+</ul>
+<p><img src="/img/knitted-squares.jpg" alt="Knitted squares sample"></p>
+<h2 id="step-by-step-instructions">Step-by-Step Instructions</h2>
+<h3 id="step-1-cast-on">Step 1: Cast On</h3>
+<p>Cast on approximately <strong>28 to 34 stitches</strong> (depending on your needle size and yarn tension).</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>[ Needle ] ===o===o===o===o===o===o===o=== [ Cast on 30 sts ]
+</span></span></code></pre></div><p><em>Tip: Measure your cast-on row against the ball band ruler. If it is 7 inches wide, you are ready to knit!</em></p>
+<h3 id="step-2-the-garter-stitch">Step 2: The Garter Stitch</h3>
+<p>Every single row is worked in the <strong>knit stitch</strong>:</p>
+<ol>
+<li>Insert right needle into the front of the first stitch from left to right.</li>
+<li>Wrap working yarn counter-clockwise around the right needle.</li>
+<li>Pull the new loop through and slide the old stitch off the left needle.</li>
+<li>Repeat across the row!</li>
+</ol>
+<h3 id="step-3-knit-until-9-inches">Step 3: Knit Until 9 Inches</h3>
+<p>Continue knitting every row until the piece measures <strong>9 inches</strong> from your cast-on edge. <em>(Note: 9” x 7” is also fine—direction doesn&rsquo;t matter!)</em></p>
+<h3 id="step-4-bind-off">Step 4: Bind Off</h3>
+<ol>
+<li>Knit two stitches.</li>
+<li>Use the left needle to lift the first stitch over the second stitch and off the needle.</li>
+<li>Knit the next stitch and repeat until one loop remains.</li>
+<li>Cut the yarn leaving a 6-inch tail, pull through the loop, and tighten.</li>
+</ol>
+<h2 id="ready-to-turn-in-your-square">Ready to Turn In Your Square?</h2>
+<p>Bring your completed block to the <strong>Pickcode booth</strong> at the conference, or email us at <strong><a href="mailto:blanketstatementproject@gmail.com">blanketstatementproject@gmail.com</a></strong> for shipping instructions!</p>
+]]></content:encoded>
+      <category>Tutorials</category>
+      <category>Knitting</category>
+      <category>knitting</category>
+      <category>beginners</category>
+      <category>tutorial</category>
+      <category>howto</category>
+      <media:content url="/img/balls-of-yarn.jpg" medium="image" />
     </item>
     <item>
       <title>The Science of Productive Fidgeting</title>
-      <link>//localhost:1313/posts/the-science-of-productive-fidgeting/</link>
+      <link>/posts/the-science-of-productive-fidgeting/</link>
       <pubDate>Tue, 10 Feb 2026 14:30:00 -0500</pubDate>
-      <guid>//localhost:1313/posts/the-science-of-productive-fidgeting/</guid>
-      <description>&lt;p&gt;Why do so many educators, engineers, and researchers knit during long seminars? Is it a distraction, or is it actually a powerful tool for deep listening?&lt;/p&gt;&#xA;&lt;p&gt;Cognitive science has increasingly validated what craft enthusiasts have known intuitively for decades: &lt;strong&gt;low-intensity tactile activity can significantly enhance working memory and auditory retention.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-yerkes-dodson-law-and-arousal-regulation&#34;&gt;The Yerkes-Dodson Law and Arousal Regulation&lt;/h2&gt;&#xA;&lt;p&gt;The Yerkes-Dodson Law describes the relationship between psychological arousal and cognitive performance:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Performance&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  ^&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  |        Optimal Focus&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  |            /\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  |           /  \&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  |          /    \&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  |  Under-        Over-&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  |  arousal       arousal&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  +------------------------&amp;gt; Arousal Level&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;When sitting still during a passive lecture, the brain&amp;rsquo;s baseline arousal drops, leading to daydreaming or the impulse to check one&amp;rsquo;s phone. Repetitive micro-movements—like forming a knit stitch—provide just enough sensory stimulation to keep the nervous system in the &lt;strong&gt;optimal focus zone&lt;/strong&gt; without overloading working memory.&lt;/p&gt;</description>
+      <dc:creator>Blanket Statement Team</dc:creator>
+      <guid isPermaLink="true">/posts/the-science-of-productive-fidgeting/</guid>
+      <description>Exploring cognitive research on motor movement, attention span, working memory, and why tactile tasks enhance listening.</description>
+      <content:encoded><![CDATA[<p>Why do so many educators, engineers, and researchers knit during long seminars? Is it a distraction, or is it actually a powerful tool for deep listening?</p>
+<p>Cognitive science has increasingly validated what craft enthusiasts have known intuitively for decades: <strong>low-intensity tactile activity can significantly enhance working memory and auditory retention.</strong></p>
+<h2 id="the-yerkes-dodson-law-and-arousal-regulation">The Yerkes-Dodson Law and Arousal Regulation</h2>
+<p>The Yerkes-Dodson Law describes the relationship between psychological arousal and cognitive performance:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>Performance
+</span></span><span style="display:flex;"><span>  ^
+</span></span><span style="display:flex;"><span>  |        Optimal Focus
+</span></span><span style="display:flex;"><span>  |            /\
+</span></span><span style="display:flex;"><span>  |           /  \
+</span></span><span style="display:flex;"><span>  |          /    \
+</span></span><span style="display:flex;"><span>  |  Under-        Over-
+</span></span><span style="display:flex;"><span>  |  arousal       arousal
+</span></span><span style="display:flex;"><span>  +------------------------&gt; Arousal Level
+</span></span></code></pre></div><p>When sitting still during a passive lecture, the brain&rsquo;s baseline arousal drops, leading to daydreaming or the impulse to check one&rsquo;s phone. Repetitive micro-movements—like forming a knit stitch—provide just enough sensory stimulation to keep the nervous system in the <strong>optimal focus zone</strong> without overloading working memory.</p>
+<h2 id="tactile-motion-vs-digital-multi-tasking">Tactile Motion vs. Digital Multi-Tasking</h2>
+<p>Research contrasting tactile crafts with digital smartphone usage reveals a crucial distinction:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Activity</th>
+          <th style="text-align: left">Working Memory Load</th>
+          <th style="text-align: left">Visual / Linguistic Interference</th>
+          <th style="text-align: left">Retention Impact</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Knitting / Crocheting</strong></td>
+          <td style="text-align: left">Low (Automatic motor loop)</td>
+          <td style="text-align: left">Minimal</td>
+          <td style="text-align: left"><strong>Positive (+15–20%)</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Doodling</strong></td>
+          <td style="text-align: left">Low</td>
+          <td style="text-align: left">Low</td>
+          <td style="text-align: left"><strong>Positive (+29%)</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Smartphone Scrolling</strong></td>
+          <td style="text-align: left">High</td>
+          <td style="text-align: left">Severe (Linguistic conflict)</td>
+          <td style="text-align: left"><strong>Negative (-40%)</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Sitting Motionless</strong></td>
+          <td style="text-align: left">Variable</td>
+          <td style="text-align: left">Mind-wandering risk</td>
+          <td style="text-align: left"><strong>Baseline</strong></td>
+      </tr>
+  </tbody>
+</table>
+<p>A famous 2009 study by psychologist Jackie Andrade demonstrated that participants who doodled while listening to a monotonous telephone message retained <strong>29% more information</strong> than non-doodlers. Knitting operates on identical neurological pathways.</p>
+<h2 id="summary">Summary</h2>
+<p>Next time you pull out yarn and needles during a keynote, know that you are actively optimizing your brain for learning—and creating a warm blanket for a child in need at the same time.</p>
+]]></content:encoded>
+      <category>Research</category>
+      <category>Productivity</category>
+      <category>cognitive-science</category>
+      <category>education</category>
+      <category>focus</category>
+      <category>research</category>
+      <media:content url="/img/knitted-squares.jpg" medium="image" />
     </item>
     <item>
       <title>Welcome to Blanket Statement</title>
-      <link>//localhost:1313/posts/welcome-to-blanket-statement/</link>
+      <link>/posts/welcome-to-blanket-statement/</link>
       <pubDate>Sun, 01 Feb 2026 09:00:00 -0500</pubDate>
-      <guid>//localhost:1313/posts/welcome-to-blanket-statement/</guid>
-      <description>&lt;p&gt;Welcome to &lt;strong&gt;Blanket Statement&lt;/strong&gt;!&lt;/p&gt;&#xA;&lt;p&gt;If you&amp;rsquo;ve ever attended an all-day conference, faculty meeting, or professional development workshop, you know how hard it can be to sit motionless for hours at a time. Many of us are kinesthetic learners: we need our hands engaged in rhythmic, low-cognitive-load activity to keep our minds alert and receptive.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Folks who knit or crochet when attending talks and meetings do so in order to help maintain focus on the talk. Using our hands keeps our brains from wandering from the speaker.&amp;rdquo;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>About Blanket Statement</title>
-      <link>//localhost:1313/about/</link>
-      <pubDate>Thu, 15 Jan 2026 10:00:00 -0500</pubDate>
-      <guid>//localhost:1313/about/</guid>
-      <description>&lt;h1 id=&#34;why-blanket-statement&#34;&gt;Why Blanket Statement?&lt;/h1&gt;&#xA;&lt;p&gt;Folks who knit or crochet when attending talks and meetings do so in order to help maintain focus on the talk. Some of us are just not wired to sit still. Using our hands keeps our brains from wandering from the speaker.&lt;/p&gt;&#xA;&lt;p&gt;We&amp;rsquo;ve all seen it: people checking their phones during conference sessions. Maybe they are looking up something relevant to the session, but likely not. Then there are those people knitting and crocheting during conference sessions. You can bet that they are paying attention to the speaker. Don’t believe it? Ask them! Then ask the person on the phone the same question.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Contact Us</title>
-      <link>//localhost:1313/contact/</link>
-      <pubDate>Thu, 15 Jan 2026 10:00:00 -0500</pubDate>
-      <guid>//localhost:1313/contact/</guid>
-      <description>&lt;h1 id=&#34;wed-love-to-hear-from-you&#34;&gt;We&amp;rsquo;d Love to Hear From You&lt;/h1&gt;&#xA;&lt;p&gt;Whether you want to drop off completed blanket squares, request yarn kits for your conference, or simply learn more about productive fidgeting, reach out to us!&lt;/p&gt;&#xA;&lt;h3 id=&#34;email&#34;&gt;Email&lt;/h3&gt;&#xA;&lt;p&gt;For general inquiries, square drop-offs, and partnership questions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Email:&lt;/strong&gt; &lt;a href=&#34;mailto:blanketstatementproject@gmail.com&#34;&gt;blanketstatementproject@gmail.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;connect-with-us-on-social-media&#34;&gt;Connect with Us on Social Media&lt;/h3&gt;&#xA;&lt;p&gt;Stay up to date with square totals, conference booth locations, and completed blanket showcases:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Bluesky:&lt;/strong&gt; &lt;a href=&#34;https://bsky.app/profile/blanketstmtproj.bsky.social&#34;&gt;@blanketstmtproj.bsky.social&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Instagram:&lt;/strong&gt; &lt;a href=&#34;https://www.instagram.com/BlanketStmtProj/&#34;&gt;@BlanketStmtProj&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Twitter / X:&lt;/strong&gt; &lt;a href=&#34;https://twitter.com/BlanketStmtProj&#34;&gt;@BlanketStmtProj&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Facebook:&lt;/strong&gt; &lt;a href=&#34;https://www.facebook.com/profile.php?id=61590897995332&amp;amp;sk=directory_names&#34;&gt;Blanket Statement Project&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;conference-booth-location&#34;&gt;Conference Booth Location&lt;/h3&gt;&#xA;&lt;p&gt;Find us at the &lt;strong&gt;Pickcode&lt;/strong&gt; booth during the CSTA Annual Conference. Pick up starter yarn, swap finished squares, or grab a quick knitting lesson!&lt;/p&gt;</description>
+      <dc:creator>Devorah</dc:creator>
+      <guid isPermaLink="true">/posts/welcome-to-blanket-statement/</guid>
+      <description>Why we started Blanket Statement and how we are turning conference fidgeting into warm blankets for children in need.</description>
+      <content:encoded><![CDATA[<p>Welcome to <strong>Blanket Statement</strong>!</p>
+<p>If you&rsquo;ve ever attended an all-day conference, faculty meeting, or professional development workshop, you know how hard it can be to sit motionless for hours at a time. Many of us are kinesthetic learners: we need our hands engaged in rhythmic, low-cognitive-load activity to keep our minds alert and receptive.</p>
+<blockquote>
+<p>&ldquo;Folks who knit or crochet when attending talks and meetings do so in order to help maintain focus on the talk. Using our hands keeps our brains from wandering from the speaker.&rdquo;</p>
+</blockquote>
+<h2 id="the-conference-dilemma">The Conference Dilemma</h2>
+<p>We&rsquo;ve all seen attendees staring at their smartphones during presentations. While some might be live-tweeting or taking notes, many are checking email, reading news, or scrolling through feeds — activities that actively compete for cognitive attention and pull focus away from the speaker.</p>
+<p>Knitting and crocheting do the exact opposite. Because the hand movements are repetitive and tactile, they satisfy the urge to fidget without drawing linguistic or analytical brain processing away from the presenter.</p>
+<p><img src="/img/balls-of-yarn.jpg" alt="Yarn balls and needles"></p>
+<h2 id="crowdsourcing-comfort">Crowdsourcing Comfort</h2>
+<p>Instead of just knitting for ourselves, Blanket Statement turns every conference hour into something tangible: <strong>7&quot; x 9&quot; knitted or crocheted squares</strong> that are seamed together into blankets for <strong>Project Linus</strong>, an organization providing security and comfort blankets to children who are ill, traumatized, or in need.</p>
+<h3 id="how-you-can-participate">How You Can Participate</h3>
+<ol>
+<li><strong>Stop by the Pickcode Booth</strong>: Grab a skein of yarn, a set of needles, or a crochet hook.</li>
+<li><strong>Knit or Crochet During Talks</strong>: Work on your 7&quot; x 9&quot; block throughout the day.</li>
+<li><strong>Drop Off &amp; Tag</strong>: Bring your completed square back to the booth, fill out a donor tag, and celebrate your contribution!</li>
+</ol>
+<p>We are thrilled to embark on this journey with you. Check back on this blog for progress updates, square counts, and helpful crafting tutorials!</p>
+]]></content:encoded>
+      <category>Announcements</category>
+      <category>Community</category>
+      <category>csta</category>
+      <category>knitting</category>
+      <category>fidgeting</category>
+      <category>welcome</category>
+      <media:content url="/img/yarn-logo.jpg" medium="image" />
     </item>
   </channel>
 </rss>

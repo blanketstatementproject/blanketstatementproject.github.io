@@ -11,6 +11,38 @@
     </div>
   </div>
 
+  <!-- RSS Feed Widget -->
+  <div class="card sidebar-widget mb-4 border-0 shadow-sm">
+    <div class="card-body">
+      <div class="d-flex align-items-center mb-2">
+        <i class="fas fa-rss text-orange-rss fa-lg mr-2"></i>
+        <h4 class="widget-title font-weight-bold mb-0">RSS Feed</h4>
+      </div>
+      <div class="sidebar-divider"></div>
+      <p class="text-muted small mb-3">
+        Subscribe to our RSS feed to receive new blog posts directly in your feed reader.
+      </p>
+      {{ with (site.GetPage "/posts").OutputFormats.Get "rss" }}
+        <a href="{{ .RelPermalink }}" class="btn btn-outline-teal btn-sm btn-block d-flex align-items-center justify-content-center" target="_blank" rel="noopener">
+          <i class="fas fa-rss mr-2"></i> Blog RSS Feed
+        </a>
+      {{ else }}
+        {{ with site.Home.OutputFormats.Get "rss" }}
+          <a href="{{ .RelPermalink }}" class="btn btn-outline-teal btn-sm btn-block d-flex align-items-center justify-content-center" target="_blank" rel="noopener">
+            <i class="fas fa-rss mr-2"></i> RSS Feed
+          </a>
+        {{ end }}
+      {{ end }}
+      {{ if or (eq .Kind "term") (eq .Kind "taxonomy") }}
+        {{ with .OutputFormats.Get "rss" }}
+          <a href="{{ .RelPermalink }}" class="btn btn-outline-secondary btn-sm btn-block d-flex align-items-center justify-content-center mt-2" target="_blank" rel="noopener">
+            <i class="fas fa-tag mr-2"></i> Feed for "{{ $.Title }}"
+          </a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+
   <!-- Categories Widget -->
   {{ if gt (len site.Taxonomies.categories) 0 }}
   <div class="card sidebar-widget mb-4 border-0 shadow-sm">

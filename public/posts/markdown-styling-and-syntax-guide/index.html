@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="A comprehensive showcase of typography, code highlighting, tables, quotes, and media formatting available in this Hugo blog starter.">
@@ -26,13 +26,18 @@
 
 
 
+  
+<link rel="alternate" type="application/rss&#43;xml" href="/posts/index.xml" title="Blanket Statement - Blog">
+  
+
+
 
 <meta property="og:title" content="Hugo Markdown Styling &amp; Formatting Guide | Blanket Statement">
 <meta property="og:description" content="A comprehensive showcase of typography, code highlighting, tables, quotes, and media formatting available in this Hugo blog starter.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="//localhost:1313/posts/markdown-styling-and-syntax-guide/">
+<meta property="og:url" content="/posts/markdown-styling-and-syntax-guide/">
 
-<meta property="og:image" content="//localhost:1313/img/knitted-squares.jpg">
+<meta property="og:image" content="/img/knitted-squares.jpg">
 
 
 </head>
@@ -154,7 +159,7 @@
 </blockquote>
 <h2 id="code-syntax-highlighting">Code Syntax Highlighting</h2>
 <p>Hugo&rsquo;s built-in Chroma syntax engine formats code with high contrast:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">knit_square</span>(stitches<span style="color:#f92672">=</span><span style="color:#ae81ff">30</span>, rows<span style="color:#f92672">=</span><span style="color:#ae81ff">48</span>):
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">knit_square</span>(stitches<span style="color:#f92672">=</span><span style="color:#ae81ff">30</span>, rows<span style="color:#f92672">=</span><span style="color:#ae81ff">48</span>):
 </span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;&#34;&#34;Simulate knitting a 7x9 inch square.&#34;&#34;&#34;</span>
 </span></span><span style="display:flex;"><span>    fabric <span style="color:#f92672">=</span> []
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> r <span style="color:#f92672">in</span> range(rows):
@@ -165,7 +170,7 @@
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;__main__&#34;</span>:
 </span></span><span style="display:flex;"><span>    knit_square()
 </span></span></code></pre></div><p>And in Go / Hugo template syntax:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-go" data-lang="go"><span style="display:flex;"><span>{{ <span style="color:#66d9ef">range</span> <span style="color:#a6e22e">where</span> .<span style="color:#a6e22e">Site</span>.<span style="color:#a6e22e">RegularPages</span> <span style="color:#e6db74">&#34;Section&#34;</span> <span style="color:#e6db74">&#34;posts&#34;</span> }}
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span>{{ <span style="color:#66d9ef">range</span> <span style="color:#a6e22e">where</span> .<span style="color:#a6e22e">Site</span>.<span style="color:#a6e22e">RegularPages</span> <span style="color:#e6db74">&#34;Section&#34;</span> <span style="color:#e6db74">&#34;posts&#34;</span> }}
 </span></span><span style="display:flex;"><span>  &lt;<span style="color:#a6e22e">article</span>&gt;
 </span></span><span style="display:flex;"><span>    &lt;<span style="color:#a6e22e">h2</span>&gt;{{ .<span style="color:#a6e22e">Title</span> }}&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">h2</span>&gt;
 </span></span><span style="display:flex;"><span>    &lt;<span style="color:#a6e22e">p</span>&gt;{{ .<span style="color:#a6e22e">Summary</span> }}&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">p</span>&gt;
@@ -270,6 +275,26 @@
         Blanket Statement advocates productive fidgeting. Using our hands keeps our brains from wandering from speakers while helping create blankets for children in need.
       </p>
       <a href="/about/" class="btn btn-outline-teal btn-sm btn-block">Learn More</a>
+    </div>
+  </div>
+
+  
+  <div class="card sidebar-widget mb-4 border-0 shadow-sm">
+    <div class="card-body">
+      <div class="d-flex align-items-center mb-2">
+        <i class="fas fa-rss text-orange-rss fa-lg mr-2"></i>
+        <h4 class="widget-title font-weight-bold mb-0">RSS Feed</h4>
+      </div>
+      <div class="sidebar-divider"></div>
+      <p class="text-muted small mb-3">
+        Subscribe to our RSS feed to receive new blog posts directly in your feed reader.
+      </p>
+      
+        <a href="/posts/index.xml" class="btn btn-outline-teal btn-sm btn-block d-flex align-items-center justify-content-center" target="_blank" rel="noopener">
+          <i class="fas fa-rss mr-2"></i> Blog RSS Feed
+        </a>
+      
+      
     </div>
   </div>
 

@@ -5,6 +5,17 @@ title = 'Blanket Statement'
 [pagination]
   pagerSize = 6
 
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  term = ["HTML", "RSS"]
+  page = ["HTML"]
+
+[services]
+  [services.rss]
+    limit = 20
+
 [params]
   description = "Blanket Statement advocates productive fidgeting at conferences. Fidget Productively at CSTA and beyond."
   tagline = "Fidget Productively at CSTA 2026"
