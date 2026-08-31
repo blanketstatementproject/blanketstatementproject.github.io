@@ -1,0 +1,63 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Blanket Statement'
+
+[pagination]
+  pagerSize = 6
+
+[params]
+  description = "Blanket Statement advocates productive fidgeting at conferences. Fidget Productively at CSTA and beyond."
+  tagline = "Fidget Productively at CSTA 2026"
+  headline = "Blanket Statement"
+  author = "Blanket Statement Team"
+  logo = "img/Blanket-Statement-Logo.png"
+  masthead_bg = "img/bg-masthead.jpg"
+  
+  # Call to Action parameters
+  cta_text = "For more information or if you have any questions, email"
+  cta_email = "blanketstatementproject@gmail.com"
+  
+  # Footer copyright and credits
+  copyright = "Copyright &copy; Blanket Statement 2026. All Rights Reserved."
+  site_by_text = "Site by"
+  site_by_name = "Chai Landau"
+  site_by_url = "https://chailandau.com"
+  
+  # Social Links
+  [params.social]
+    facebook = "https://www.facebook.com/profile.php?id=61590897995332&sk=directory_names"
+    instagram = "https://www.instagram.com/BlanketStmtProj/"
+    twitter = "https://twitter.com/BlanketStmtProj"
+    bluesky = "https://bsky.app/profile/blanketstmtproj.bsky.social"
+    github = ""
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "monokai"
+    lineNos = false
+    guessSyntax = true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4

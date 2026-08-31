@@ -1,0 +1,63 @@
+<!-- Footer -->
+<footer class="footer bg-light">
+  <div class="container">
+    <div class="row" id="contact">
+      <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+        <p class="text-muted small mb-1">{{ site.Params.copyright | safeHTML }}</p>
+        {{ with site.Params.site_by_name }}
+          <p class="text-muted small mb-0">{{ site.Params.site_by_text | default "Site by" }} <a href="{{ site.Params.site_by_url }}" target="_blank" rel="noopener">{{ . }}</a></p>
+        {{ end }}
+      </div>
+      <div class="col-lg-6 h-100 text-center text-lg-right my-auto mt-3 mt-lg-0">
+        <ul class="list-inline mb-0 social-links">
+          {{ with site.Params.social.facebook }}
+            <li class="list-inline-item mr-3">
+              <a href="{{ . }}" target="_blank" rel="noopener" aria-label="Facebook">
+                <i class="fab fa-facebook fa-2x fa-fw"></i>
+              </a>
+            </li>
+          {{ end }}
+          {{ with site.Params.social.instagram }}
+            <li class="list-inline-item mr-3">
+              <a href="{{ . }}" target="_blank" rel="noopener" aria-label="Instagram">
+                <i class="fab fa-instagram fa-2x fa-fw"></i>
+              </a>
+            </li>
+          {{ end }}
+          {{ with site.Params.social.twitter }}
+            <li class="list-inline-item mr-3">
+              <a href="{{ . }}" target="_blank" rel="noopener" aria-label="Twitter">
+                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+              </a>
+            </li>
+          {{ end }}
+          {{ with site.Params.social.bluesky }}
+            <li class="list-inline-item mr-3">
+              <a href="{{ . }}" title="Bluesky" rel="me" target="_blank" aria-label="Bluesky">
+                <span class="inline-svg">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-bluesky"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M6.335 5.144C4.681 3.945 2 3.017 2 5.97c0 .59.35 4.953.556 5.661C3.269 14.094 5.686 14.381 8 14c-4.045.665-4.889 3.208-2.667 5.41C6.363 20.428 7.246 21 8 21c2 0 3.134-2.769 3.5-3.5.333-.667.5-1.167.5-1.5.0.333.167.833.5 1.5.366.731 1.5 3.5 3.5 3.5.754.0 1.637-.571 2.667-1.59C20.889 17.207 20.045 14.664 16 14c2.314.38 4.73.094 5.444-2.369.206-.708.556-5.072.556-5.661.0-2.953-2.68-2.025-4.335-.826C15.372 6.806 12.905 10.192 12 12c-.905-1.808-3.372-5.194-5.665-6.856z"></path></svg>
+                </span>
+              </a>
+            </li>
+          {{ end }}
+          {{ with site.Params.social.github }}
+            <li class="list-inline-item mr-3">
+              <a href="{{ . }}" target="_blank" rel="noopener" aria-label="GitHub">
+                <i class="fab fa-github fa-2x fa-fw"></i>
+              </a>
+            </li>
+          {{ end }}
+          <li class="list-inline-item">
+            <a href="{{ "posts/index.xml" | relURL }}" aria-label="RSS Feed" title="RSS Feed">
+              <i class="fas fa-rss-square fa-2x fa-fw"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="{{ "vendor/jquery/jquery.min.js" | relURL }}"></script>
+<script src="{{ "vendor/bootstrap/js/bootstrap.bundle.min.js" | relURL }}"></script>

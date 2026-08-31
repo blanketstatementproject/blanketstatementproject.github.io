@@ -1,0 +1,78 @@
+{{ define "main" }}
+<div class="container py-5">
+  <div class="row">
+    <!-- Main Post Content -->
+    <article class="col-lg-8 mb-5 mb-lg-0 blog-single-content">
+      
+      <!-- Breadcrumb Navigation -->
+      <nav aria-label="breadcrumb" class="mb-4">
+        <ol class="breadcrumb bg-transparent p-0">
+          <li class="breadcrumb-item"><a href="{{ "/" | relURL }}" class="text-teal">Home</a></li>
+          <li class="breadcrumb-item"><a href="{{ "/posts/" | relURL }}" class="text-teal">Blog</a></li>
+          <li class="breadcrumb-item active text-muted" aria-current="page">{{ .Title | truncate 40 }}</li>
+        </ol>
+      </nav>
+
+      {{ if .Params.image }}
+        <div class="post-featured-image mb-4">
+          <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="img-fluid rounded shadow-sm w-100">
+        </div>
+      {{ end }}
+
+      <!-- Article Body -->
+      <div class="post-body">
+        {{ .Content }}
+      </div>
+
+      <!-- Post Tags -->
+      {{ with .Params.tags }}
+        <div class="post-tags-container mt-5 pt-4 border-top">
+          <h5 class="d-inline-block mr-3 font-weight-bold text-dark"><i class="fas fa-tags mr-1"></i> Tags:</h5>
+          {{ range . }}
+            <a href="{{ "/tags/" | relURL }}{{ . | urlize }}" class="badge badge-tag mr-2 mb-2">#{{ . }}</a>
+          {{ end }}
+        </div>
+      {{ end }}
+
+      <!-- Post Navigation (Prev / Next) -->
+      <div class="post-navigation mt-5 pt-4 border-top">
+        <div class="row">
+          <div class="col-6 prev-post">
+            {{ with .PrevInSection }}
+              <span class="text-muted small d-block mb-1">&larr; Previous Post</span>
+              <a href="{{ .RelPermalink }}" class="font-weight-bold nav-post-link text-teal">{{ .Title }}</a>
+            {{ end }}
+          </div>
+          <div class="col-6 next-post text-right">
+            {{ with .NextInSection }}
+              <span class="text-muted small d-block mb-1">Next Post &rarr;</span>
+              <a href="{{ .RelPermalink }}" class="font-weight-bold nav-post-link text-teal">{{ .Title }}</a>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+
+      <!-- Author Bio Box -->
+      <div class="author-box mt-5 p-4 bg-light rounded d-flex align-items-center shadow-sm">
+        <div class="author-avatar mr-4">
+          <div class="author-icon-circle">
+            <i class="fas fa-user-circle fa-3x text-teal"></i>
+          </div>
+        </div>
+        <div class="author-info">
+          <h5 class="font-weight-bold mb-1">{{ .Params.author | default site.Params.author }}</h5>
+          <p class="text-muted small mb-0">
+            Contributing writer for the Blanket Statement Project. Passionate about tactile learning, productive fidgeting, and community crafting.
+          </p>
+        </div>
+      </div>
+
+    </article>
+
+    <!-- Sidebar Column -->
+    <div class="col-lg-4">
+      {{ partial "sidebar.html" . }}
+    </div>
+  </div>
+</div>
+{{ end }}

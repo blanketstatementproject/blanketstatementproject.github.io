@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
+      <div class="page-content-wrapper bg-white p-4 p-md-5 rounded shadow-sm">
+        {{ if .Params.image }}
+          <div class="page-featured-image mb-4">
+            <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="img-fluid rounded w-100">
+          </div>
+        {{ end }}
+        
+        <div class="post-body">
+          {{ .Content }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

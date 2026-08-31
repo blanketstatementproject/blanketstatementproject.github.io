@@ -1,0 +1,21 @@
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light static-top">
+  <div class="container">
+    <a class="navbar-brand" href="{{ "/" | relURL }}">
+      <img src="{{ site.Params.logo | relURL }}" alt="{{ site.Title }}" class="img-fluid site-logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto align-items-center">
+        {{ $currentPage := . }}
+        {{ range site.Menus.main }}
+        <li class="nav-item {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{ end }}">
+          <a class="nav-link menu-link font-weight-bold" href="{{ .URL | relURL }}">{{ .Name | upper }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</nav>

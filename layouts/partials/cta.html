@@ -1,0 +1,13 @@
+<!-- Call to Action -->
+<section class="call-to-action text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-9 mx-auto">
+        <h2 class="mb-4">
+          {{ site.Params.cta_text | default "For more information or if you have any questions, email" }} 
+          <a href="mailto:{{ site.Params.cta_email | default "blanketstatementproject@gmail.com" }}">{{ site.Params.cta_email | default "blanketstatementproject@gmail.com" }}</a>.
+        </h2>
+      </div>
+    </div>
+  </div>
+</section>

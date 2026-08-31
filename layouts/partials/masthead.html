@@ -1,0 +1,44 @@
+<!-- Masthead -->
+<header class="masthead text-white {{ if not .IsHome }}masthead-inner{{ end }}">
+  <div class="overlay"></div>
+  <div class="container position-relative">
+    {{ if .IsHome }}
+      <h1 class="headline">{{ site.Params.headline | default site.Title }}</h1>
+      <h2 class="tagline">{{ site.Params.tagline }}</h2>
+    {{ else if eq .Section "posts" }}
+      {{ if .IsPage }}
+        <div class="post-header text-left">
+          {{ with .Params.categories }}
+            <div class="mb-2">
+              {{ range . }}
+                <a href="{{ "/categories/" | relURL }}{{ . | urlize }}" class="badge badge-primary masthead-badge">{{ . }}</a>
+              {{ end }}
+            </div>
+          {{ end }}
+          <h1 class="headline masthead-title">{{ .Title }}</h1>
+          <div class="post-meta mt-3 text-light">
+            <span><i class="far fa-calendar-alt mr-1"></i> {{ .Date.Format "January 2, 2006" }}</span>
+            <span class="mx-2">•</span>
+            <span><i class="far fa-clock mr-1"></i> {{ .ReadingTime }} min read</span>
+            {{ with .Params.author }}
+              <span class="mx-2">•</span>
+              <span><i class="far fa-user mr-1"></i> {{ . }}</span>
+            {{ end }}
+          </div>
+        </div>
+      {{ else }}
+        <h1 class="headline masthead-title">{{ .Title }}</h1>
+        {{ with .Description }}
+          <h2 class="tagline">{{ . }}</h2>
+        {{ else }}
+          <h2 class="tagline">{{ site.Params.tagline }}</h2>
+        {{ end }}
+      {{ end }}
+    {{ else }}
+      <h1 class="headline masthead-title">{{ .Title }}</h1>
+      {{ with .Description }}
+        <h2 class="tagline">{{ . }}</h2>
+      {{ end }}
+    {{ end }}
+  </div>
+</header>

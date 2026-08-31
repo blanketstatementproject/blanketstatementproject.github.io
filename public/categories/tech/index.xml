@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech on Blanket Statement</title>
+    <link>//localhost:1313/categories/tech/</link>
+    <description>Recent content in Tech on Blanket Statement</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Mar 2026 12:00:00 -0500</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo Markdown Styling &amp; Formatting Guide</title>
+      <link>//localhost:1313/posts/markdown-styling-and-syntax-guide/</link>
+      <pubDate>Sun, 01 Mar 2026 12:00:00 -0500</pubDate>
+      <guid>//localhost:1313/posts/markdown-styling-and-syntax-guide/</guid>
+      <description>&lt;p&gt;This starter template includes rich formatting support for technical writing, tutorial posts, and personal blogging. Below is a preview of the typography and components.&lt;/p&gt;&#xA;&lt;h2 id=&#34;headings--typography&#34;&gt;Headings &amp;amp; Typography&lt;/h2&gt;&#xA;&lt;p&gt;Here is standard body text with &lt;strong&gt;bold text&lt;/strong&gt;, &lt;em&gt;italic text&lt;/em&gt;, and &lt;code&gt;inline code&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;subheading-level-3&#34;&gt;Subheading Level 3&lt;/h3&gt;&#xA;&lt;p&gt;Paragraph text flows smoothly with readable line heights and carefully tuned margins matching the Blanket Statement visual identity.&lt;/p&gt;&#xA;&lt;h4 id=&#34;subheading-level-4&#34;&gt;Subheading Level 4&lt;/h4&gt;&#xA;&lt;p&gt;Lists are formatted with clean spacing:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

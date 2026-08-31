@@ -1,0 +1,85 @@
+{{ define "main" }}
+  <!-- Image Showcases -->
+  <section class="showcase">
+    <div class="container-fluid p-0">
+      
+      <!-- Showcase Row 1 -->
+      <div class="row no-gutters">
+        <div class="col-lg-6 order-lg-2 image-below text-white showcase-img" style="background-image: url('{{ "img/yarn-logo.jpg" | relURL }}');"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>About Blanket Statement</h2>
+          <p class="lead mb-0 body-p">
+            Folks who knit / crochet when attending talks and meetings do so in order to help maintain focus on the talk. Some of us are just not wired to sit still. Using our hands keeps our brains from wandering from the speaker.
+          </p>
+          <p class="lead mb-0 body-p">
+            We've all seen it - people checking their phones during conference sessions. Maybe they are looking up something relevant to the session but likely not. Then there are those people knitting and crocheting during conference sessions. You can bet that they are paying attention to the speaker. Don’t believe it? Ask them! Then ask the person on the phone the same question.
+          </p>
+          <p class="lead mb-0 body-p">
+            Try it!
+          </p>
+        </div>
+      </div>
+
+      <!-- Showcase Row 2 -->
+      <div class="row no-gutters">
+        <div class="col-lg-6 image-below text-white showcase-img" style="background-image: url('{{ "img/knitted-squares.jpg" | relURL }}');"></div>
+        <div class="col-lg-6 my-auto showcase-text">
+          <h2>Blanket Statement advocates productive fidgeting.</h2>
+          <p class="lead mb-0 body-p">
+            Before you head into your conference sessions, come by the <b>Pickcode</b> booth and pick up some supplies to help make a blanket for a child in need.
+          </p>
+          <p class="lead mb-0 body-p">
+            Don’t know how to knit? Come by the <b>Pickcode</b> booth and learn!
+          </p>
+          <p class="lead mb-0 body-p">
+            What are we making? We are making blankets for Project Linus, one block at a time. It’s crowdsourcing a blanket!
+          </p>
+          <p class="lead mb-0 body-p">
+            When you finish your block, drop it off at the <b>Pickcode</b> booth. Be sure to fill out a tag so we can give you credit.
+          </p>
+        </div>
+      </div>
+
+      <!-- Showcase Row 3 -->
+      <div class="row no-gutters">
+        <div class="col-lg-6 order-lg-2 image-below text-white showcase-img" style="background-image: url('{{ "img/balls-of-yarn.jpg" | relURL }}');"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>Instructions:</h2>
+          <ul class="lead mb-0 body-p">
+            <li>Knit or crochet 7” x 9” blocks (or 9” x 7”, direction doesn’t matter). There is a ruler on the ball band.</li>
+            <li>Drop completed blocks off at the <b>Pickcode</b> booth or reach out to Devorah at <b><a href="mailto:{{ site.Params.cta_email | default "blanketstatementproject@gmail.com" }}">{{ site.Params.cta_email | default "blanketstatementproject@gmail.com" }}</a></b></li>
+            <li><b>Enjoy the conference!</b></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Latest Blog Posts Section -->
+  {{ $posts := where site.RegularPages "Section" "posts" }}
+  {{ if gt (len $posts) 0 }}
+  <section class="latest-posts py-5 bg-light">
+    <div class="container py-4">
+      <div class="section-title text-center mb-5">
+        <h2 class="font-weight-bold">Latest From the Blog</h2>
+        <div class="title-separator mx-auto mb-3"></div>
+        <p class="lead text-muted">Stories, knitting tutorials, and updates from the Blanket Statement project.</p>
+      </div>
+
+      <div class="row">
+        {{ range first 3 $posts }}
+          {{ partial "post_card.html" . }}
+        {{ end }}
+      </div>
+
+      <div class="text-center mt-4">
+        <a href="{{ "/posts/" | relURL }}" class="btn btn-teal-primary btn-lg px-4 font-weight-bold">
+          View All Blog Posts <i class="fas fa-arrow-right ml-2"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+
+{{ end }}

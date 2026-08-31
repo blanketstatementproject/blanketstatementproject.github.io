@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ site.LanguageCode | default "en" }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body class="{{ if .IsHome }}home-page{{ else }}inner-page{{ end }}">
+  {{ partial "nav.html" . }}
+  
+  {{ block "masthead" . }}
+    {{ partial "masthead.html" . }}
+  {{ end }}
+  
+  <main id="main-content">
+    {{ block "main" . }}{{ end }}
+  </main>
+  
+  {{ block "cta" . }}
+    {{ partial "cta.html" . }}
+  {{ end }}
+  
+  {{ partial "footer.html" . }}
+</body>
+</html>

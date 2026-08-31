@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Blanket Statement</title>
+    <link>//localhost:1313/categories/</link>
+    <description>Recent content in Categories on Blanket Statement</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Mar 2026 12:00:00 -0500</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tech</title>
+      <link>//localhost:1313/categories/tech/</link>
+      <pubDate>Sun, 01 Mar 2026 12:00:00 -0500</pubDate>
+      <guid>//localhost:1313/categories/tech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tutorials</title>
+      <link>//localhost:1313/categories/tutorials/</link>
+      <pubDate>Sun, 01 Mar 2026 12:00:00 -0500</pubDate>
+      <guid>//localhost:1313/categories/tutorials/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Charity</title>
+      <link>//localhost:1313/categories/charity/</link>
+      <pubDate>Wed, 25 Feb 2026 16:00:00 -0500</pubDate>
+      <guid>//localhost:1313/categories/charity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Community</title>
+      <link>//localhost:1313/categories/community/</link>
+      <pubDate>Wed, 25 Feb 2026 16:00:00 -0500</pubDate>
+      <guid>//localhost:1313/categories/community/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Knitting</title>
+      <link>//localhost:1313/categories/knitting/</link>
+      <pubDate>Wed, 18 Feb 2026 11:00:00 -0500</pubDate>
+      <guid>//localhost:1313/categories/knitting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Productivity</title>
+      <link>//localhost:1313/categories/productivity/</link>
+      <pubDate>Tue, 10 Feb 2026 14:30:00 -0500</pubDate>
+      <guid>//localhost:1313/categories/productivity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>//localhost:1313/categories/research/</link>
+      <pubDate>Tue, 10 Feb 2026 14:30:00 -0500</pubDate>
+      <guid>//localhost:1313/categories/research/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Announcements</title>
+      <link>//localhost:1313/categories/announcements/</link>
+      <pubDate>Sun, 01 Feb 2026 09:00:00 -0500</pubDate>
+      <guid>//localhost:1313/categories/announcements/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

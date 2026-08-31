@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Charity on Blanket Statement</title>
+    <link>//localhost:1313/categories/charity/</link>
+    <description>Recent content in Charity on Blanket Statement</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Feb 2026 16:00:00 -0500</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/charity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crowdsourcing Warmth: Our Partnership with Project Linus</title>
+      <link>//localhost:1313/posts/crowdsourcing-warmth-project-linus/</link>
+      <pubDate>Wed, 25 Feb 2026 16:00:00 -0500</pubDate>
+      <guid>//localhost:1313/posts/crowdsourcing-warmth-project-linus/</guid>
+      <description>&lt;p&gt;What happens after you drop off your finished 7” x 9” square at the Pickcode booth?&lt;/p&gt;&#xA;&lt;p&gt;Every square donated to Blanket Statement becomes part of a larger community quilt. In this post, we take a look behind the scenes at how hundreds of individual contributions become cozy blankets for &lt;strong&gt;Project Linus&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/img/yarn-logo.jpg&#34; alt=&#34;Yarn logo&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;about-project-linus&#34;&gt;About Project Linus&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.projectlinus.org/&#34;&gt;Project Linus&lt;/a&gt; is a national non-profit organization that provides handmade blankets to children who are seriously ill, traumatized, or otherwise in need. Since its founding in 1995, Project Linus has delivered more than &lt;strong&gt;10 million blankets&lt;/strong&gt; nationwide.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

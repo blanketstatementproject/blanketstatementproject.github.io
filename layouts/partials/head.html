@@ -1,0 +1,37 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+<meta name="author" content="{{ with .Params.author }}{{ . }}{{ else }}{{ site.Params.author }}{{ end }}">
+
+<title>{{ if .IsHome }}{{ site.Title }} - {{ site.Params.tagline }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
+
+<!-- Favicon / Brand icons -->
+<link rel="icon" type="image/png" href="{{ "img/Blanket-Statement-Logo.png" | relURL }}">
+
+<!-- Bootstrap core CSS -->
+<link href="{{ "vendor/bootstrap/css/bootstrap.min.css" | relURL }}" rel="stylesheet">
+
+<!-- Custom fonts for this template -->
+<link href="{{ "vendor/fontawesome-free/css/all.min.css" | relURL }}" rel="stylesheet">
+<link href="{{ "vendor/simple-line-icons/css/simple-line-icons.css" | relURL }}" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+<!-- Custom styles for this template -->
+<link href="{{ "css/landing-page.min.css" | relURL }}" rel="stylesheet">
+<link href="{{ "css/custom.css" | relURL }}" rel="stylesheet">
+
+<!-- RSS Feed -->
+{{ with .OutputFormats.Get "rss" }}
+<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ site.Title }}">
+{{ end }}
+
+<!-- Open Graph / Meta -->
+<meta property="og:title" content="{{ if .IsHome }}{{ site.Title }} - {{ site.Params.tagline }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}">
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+{{ with .Params.image }}
+<meta property="og:image" content="{{ . | absURL }}">
+{{ else }}
+<meta property="og:image" content="{{ site.Params.masthead_bg | absURL }}">
+{{ end }}

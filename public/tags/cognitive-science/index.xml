@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cognitive-Science on Blanket Statement</title>
+    <link>//localhost:1313/tags/cognitive-science/</link>
+    <description>Recent content in Cognitive-Science on Blanket Statement</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Feb 2026 14:30:00 -0500</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/cognitive-science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Science of Productive Fidgeting</title>
+      <link>//localhost:1313/posts/the-science-of-productive-fidgeting/</link>
+      <pubDate>Tue, 10 Feb 2026 14:30:00 -0500</pubDate>
+      <guid>//localhost:1313/posts/the-science-of-productive-fidgeting/</guid>
+      <description>&lt;p&gt;Why do so many educators, engineers, and researchers knit during long seminars? Is it a distraction, or is it actually a powerful tool for deep listening?&lt;/p&gt;&#xA;&lt;p&gt;Cognitive science has increasingly validated what craft enthusiasts have known intuitively for decades: &lt;strong&gt;low-intensity tactile activity can significantly enhance working memory and auditory retention.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-yerkes-dodson-law-and-arousal-regulation&#34;&gt;The Yerkes-Dodson Law and Arousal Regulation&lt;/h2&gt;&#xA;&lt;p&gt;The Yerkes-Dodson Law describes the relationship between psychological arousal and cognitive performance:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Performance&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  ^&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  |        Optimal Focus&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  |            /\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  |           /  \&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  |          /    \&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  |  Under-        Over-&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  |  arousal       arousal&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  +------------------------&amp;gt; Arousal Level&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;When sitting still during a passive lecture, the brain&amp;rsquo;s baseline arousal drops, leading to daydreaming or the impulse to check one&amp;rsquo;s phone. Repetitive micro-movements—like forming a knit stitch—provide just enough sensory stimulation to keep the nervous system in the &lt;strong&gt;optimal focus zone&lt;/strong&gt; without overloading working memory.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

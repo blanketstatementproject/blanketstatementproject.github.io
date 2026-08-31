@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorial on Blanket Statement</title>
+    <link>//localhost:1313/tags/tutorial/</link>
+    <description>Recent content in Tutorial on Blanket Statement</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Feb 2026 11:00:00 -0500</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Beginner&#39;s Guide to Knitting 7” x 9” Squares</title>
+      <link>//localhost:1313/posts/beginner-guide-to-knitting-squares/</link>
+      <pubDate>Wed, 18 Feb 2026 11:00:00 -0500</pubDate>
+      <guid>//localhost:1313/posts/beginner-guide-to-knitting-squares/</guid>
+      <description>&lt;p&gt;Never held a pair of knitting needles before? No problem! Knitting a 7” x 9” blanket block is the single best starter project. There are no complicated increases or decreases—just a straightforward rectangle worked in classic &lt;strong&gt;Garter Stitch&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;materials-needed&#34;&gt;Materials Needed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Yarn&lt;/strong&gt;: 1 skein worsted weight (medium #4) acrylic or washable wool.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Needles&lt;/strong&gt;: US Size 8 (5.0 mm) or Size 9 (5.5 mm).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Ruler&lt;/strong&gt;: The ruler printed on the ball band, or any standard measuring tape.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tapestry Needle&lt;/strong&gt;: To weave in your yarn ends.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/img/knitted-squares.jpg&#34; alt=&#34;Knitted squares sample&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

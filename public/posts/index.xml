@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Blanket Statement</title>
+    <link>//localhost:1313/posts/</link>
+    <description>Recent content in Posts on Blanket Statement</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Mar 2026 12:00:00 -0500</lastBuildDate>
+    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo Markdown Styling &amp; Formatting Guide</title>
+      <link>//localhost:1313/posts/markdown-styling-and-syntax-guide/</link>
+      <pubDate>Sun, 01 Mar 2026 12:00:00 -0500</pubDate>
+      <guid>//localhost:1313/posts/markdown-styling-and-syntax-guide/</guid>
+      <description>&lt;p&gt;This starter template includes rich formatting support for technical writing, tutorial posts, and personal blogging. Below is a preview of the typography and components.&lt;/p&gt;&#xA;&lt;h2 id=&#34;headings--typography&#34;&gt;Headings &amp;amp; Typography&lt;/h2&gt;&#xA;&lt;p&gt;Here is standard body text with &lt;strong&gt;bold text&lt;/strong&gt;, &lt;em&gt;italic text&lt;/em&gt;, and &lt;code&gt;inline code&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;subheading-level-3&#34;&gt;Subheading Level 3&lt;/h3&gt;&#xA;&lt;p&gt;Paragraph text flows smoothly with readable line heights and carefully tuned margins matching the Blanket Statement visual identity.&lt;/p&gt;&#xA;&lt;h4 id=&#34;subheading-level-4&#34;&gt;Subheading Level 4&lt;/h4&gt;&#xA;&lt;p&gt;Lists are formatted with clean spacing:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Crowdsourcing Warmth: Our Partnership with Project Linus</title>
+      <link>//localhost:1313/posts/crowdsourcing-warmth-project-linus/</link>
+      <pubDate>Wed, 25 Feb 2026 16:00:00 -0500</pubDate>
+      <guid>//localhost:1313/posts/crowdsourcing-warmth-project-linus/</guid>
+      <description>&lt;p&gt;What happens after you drop off your finished 7” x 9” square at the Pickcode booth?&lt;/p&gt;&#xA;&lt;p&gt;Every square donated to Blanket Statement becomes part of a larger community quilt. In this post, we take a look behind the scenes at how hundreds of individual contributions become cozy blankets for &lt;strong&gt;Project Linus&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/img/yarn-logo.jpg&#34; alt=&#34;Yarn logo&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;about-project-linus&#34;&gt;About Project Linus&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.projectlinus.org/&#34;&gt;Project Linus&lt;/a&gt; is a national non-profit organization that provides handmade blankets to children who are seriously ill, traumatized, or otherwise in need. Since its founding in 1995, Project Linus has delivered more than &lt;strong&gt;10 million blankets&lt;/strong&gt; nationwide.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Beginner&#39;s Guide to Knitting 7” x 9” Squares</title>
+      <link>//localhost:1313/posts/beginner-guide-to-knitting-squares/</link>
+      <pubDate>Wed, 18 Feb 2026 11:00:00 -0500</pubDate>
+      <guid>//localhost:1313/posts/beginner-guide-to-knitting-squares/</guid>
+      <description>&lt;p&gt;Never held a pair of knitting needles before? No problem! Knitting a 7” x 9” blanket block is the single best starter project. There are no complicated increases or decreases—just a straightforward rectangle worked in classic &lt;strong&gt;Garter Stitch&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;materials-needed&#34;&gt;Materials Needed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Yarn&lt;/strong&gt;: 1 skein worsted weight (medium #4) acrylic or washable wool.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Needles&lt;/strong&gt;: US Size 8 (5.0 mm) or Size 9 (5.5 mm).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Ruler&lt;/strong&gt;: The ruler printed on the ball band, or any standard measuring tape.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tapestry Needle&lt;/strong&gt;: To weave in your yarn ends.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/img/knitted-squares.jpg&#34; alt=&#34;Knitted squares sample&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Science of Productive Fidgeting</title>
+      <link>//localhost:1313/posts/the-science-of-productive-fidgeting/</link>
+      <pubDate>Tue, 10 Feb 2026 14:30:00 -0500</pubDate>
+      <guid>//localhost:1313/posts/the-science-of-productive-fidgeting/</guid>
+      <description>&lt;p&gt;Why do so many educators, engineers, and researchers knit during long seminars? Is it a distraction, or is it actually a powerful tool for deep listening?&lt;/p&gt;&#xA;&lt;p&gt;Cognitive science has increasingly validated what craft enthusiasts have known intuitively for decades: &lt;strong&gt;low-intensity tactile activity can significantly enhance working memory and auditory retention.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-yerkes-dodson-law-and-arousal-regulation&#34;&gt;The Yerkes-Dodson Law and Arousal Regulation&lt;/h2&gt;&#xA;&lt;p&gt;The Yerkes-Dodson Law describes the relationship between psychological arousal and cognitive performance:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Performance&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  ^&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  |        Optimal Focus&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  |            /\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  |           /  \&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  |          /    \&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  |  Under-        Over-&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  |  arousal       arousal&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  +------------------------&amp;gt; Arousal Level&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;When sitting still during a passive lecture, the brain&amp;rsquo;s baseline arousal drops, leading to daydreaming or the impulse to check one&amp;rsquo;s phone. Repetitive micro-movements—like forming a knit stitch—provide just enough sensory stimulation to keep the nervous system in the &lt;strong&gt;optimal focus zone&lt;/strong&gt; without overloading working memory.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Welcome to Blanket Statement</title>
+      <link>//localhost:1313/posts/welcome-to-blanket-statement/</link>
+      <pubDate>Sun, 01 Feb 2026 09:00:00 -0500</pubDate>
+      <guid>//localhost:1313/posts/welcome-to-blanket-statement/</guid>
+      <description>&lt;p&gt;Welcome to &lt;strong&gt;Blanket Statement&lt;/strong&gt;!&lt;/p&gt;&#xA;&lt;p&gt;If you&amp;rsquo;ve ever attended an all-day conference, faculty meeting, or professional development workshop, you know how hard it can be to sit motionless for hours at a time. Many of us are kinesthetic learners: we need our hands engaged in rhythmic, low-cognitive-load activity to keep our minds alert and receptive.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Folks who knit or crochet when attending talks and meetings do so in order to help maintain focus on the talk. Using our hands keeps our brains from wandering from the speaker.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
