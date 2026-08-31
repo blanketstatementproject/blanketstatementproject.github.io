@@ -1,0 +1,71 @@
+{{- $pctx := . -}}
+{{- if .IsHome -}}
+  {{- $pctx = .Site -}}
+{{- end -}}
+{{- $pages := slice -}}
+{{- if .IsHome -}}
+  {{- $pages = where site.RegularPages "Section" "posts" -}}
+  {{- if eq (len $pages) 0 -}}
+    {{- $pages = site.RegularPages -}}
+  {{- end -}}
+{{- else if .IsSection -}}
+  {{- $pages = .RegularPages -}}
+{{- else -}}
+  {{- $pages = .Pages -}}
+{{- end -}}
+{{- $limit := site.Config.Services.RSS.Limit -}}
+{{- if or (not $limit) (lt $limit 1) -}}
+  {{- $limit = 20 -}}
+{{- end -}}
+{{- $pages = ($pages.ByDate.Reverse) | first $limit -}}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" 
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>{{ if eq .Title site.Title }}{{ site.Title }}{{ else }}{{ with .Title }}{{ . }} | {{ end }}{{ site.Title }}{{ end }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>{{ with .Description }}{{ . }}{{ else }}{{ if .IsHome }}{{ site.Params.description | default (printf "Recent content from %s" site.Title) }}{{ else }}{{ printf "Recent posts in %s on %s" .Title site.Title }}{{ end }}{{ end }}</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>{{ site.LanguageCode | default "en-us" }}</language>
+    {{- with site.Params.cta_email }}
+    <managingEditor>{{ . }}{{ with site.Params.author }} ({{ . }}){{ end }}</managingEditor>
+    <webMaster>{{ . }}{{ with site.Params.author }} ({{ . }}){{ end }}</webMaster>
+    {{- end }}
+    {{- with site.Params.copyright }}
+    <copyright>{{ . | replaceRE "&copy;" "©" | plainify }}</copyright>
+    {{- end }}
+    {{- if gt (len $pages) 0 }}
+    <lastBuildDate>{{ (index $pages 0).Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</lastBuildDate>
+    {{- else if not .Date.IsZero }}
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</lastBuildDate>
+    {{- end }}
+    {{- with .OutputFormats.Get "RSS" -}}
+    {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+    {{- end -}}
+    {{- range $pages }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
+      {{- with .Params.author | default site.Params.author }}
+      <dc:creator>{{ . }}</dc:creator>
+      {{- end }}
+      <guid isPermaLink="true">{{ .Permalink }}</guid>
+      <description>{{ with .Description }}{{ . | html }}{{ else }}{{ .Summary | html }}{{ end }}</description>
+      <content:encoded>{{ (printf "<![CDATA[%s]]>" .Content) | safeHTML }}</content:encoded>
+      {{- range .Params.categories }}
+      <category>{{ . }}</category>
+      {{- end }}
+      {{- range .Params.tags }}
+      <category>{{ . }}</category>
+      {{- end }}
+      {{- with .Params.image }}
+      <media:content url="{{ . | absURL }}" medium="image" />
+      {{- end }}
+    </item>
+    {{- end }}
+  </channel>
+</rss>
