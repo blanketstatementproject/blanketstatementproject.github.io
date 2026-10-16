@@ -13,25 +13,7 @@
     <managingEditor>blanketstatementproject@gmail.com (Blanket Statement Team)</managingEditor>
     <webMaster>blanketstatementproject@gmail.com (Blanket Statement Team)</webMaster>
     <copyright>Copyright © Blanket Statement 2026. All Rights Reserved.</copyright>
-    <lastBuildDate>Sun, 01 Mar 2026 12:00:00 -0500</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Tutorials</title>
-      <link>/categories/tutorials/</link>
-      <pubDate>Sun, 01 Mar 2026 12:00:00 -0500</pubDate>
-      <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/categories/tutorials/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>Tech</title>
-      <link>/categories/tech/</link>
-      <pubDate>Sun, 01 Mar 2026 12:00:00 -0500</pubDate>
-      <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/categories/tech/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
+    <lastBuildDate>Wed, 25 Feb 2026 16:00:00 -0500</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Community</title>
       <link>/categories/community/</link>
@@ -51,29 +33,20 @@
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
+      <title>Tutorials</title>
+      <link>/categories/tutorials/</link>
+      <pubDate>Wed, 18 Feb 2026 11:00:00 -0500</pubDate>
+      <dc:creator>Blanket Statement Team</dc:creator>
+      <guid isPermaLink="true">/categories/tutorials/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
       <title>Knitting</title>
       <link>/categories/knitting/</link>
       <pubDate>Wed, 18 Feb 2026 11:00:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
       <guid isPermaLink="true">/categories/knitting/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>Research</title>
-      <link>/categories/research/</link>
-      <pubDate>Tue, 10 Feb 2026 14:30:00 -0500</pubDate>
-      <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/categories/research/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>Productivity</title>
-      <link>/categories/productivity/</link>
-      <pubDate>Tue, 10 Feb 2026 14:30:00 -0500</pubDate>
-      <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/categories/productivity/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

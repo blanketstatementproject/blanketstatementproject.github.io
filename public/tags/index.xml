@@ -13,43 +13,7 @@
     <managingEditor>blanketstatementproject@gmail.com (Blanket Statement Team)</managingEditor>
     <webMaster>blanketstatementproject@gmail.com (Blanket Statement Team)</webMaster>
     <copyright>Copyright © Blanket Statement 2026. All Rights Reserved.</copyright>
-    <lastBuildDate>Sun, 01 Mar 2026 12:00:00 -0500</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Starter</title>
-      <link>/tags/starter/</link>
-      <pubDate>Sun, 01 Mar 2026 12:00:00 -0500</pubDate>
-      <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/tags/starter/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>Markdown</title>
-      <link>/tags/markdown/</link>
-      <pubDate>Sun, 01 Mar 2026 12:00:00 -0500</pubDate>
-      <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/tags/markdown/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>Hugo</title>
-      <link>/tags/hugo/</link>
-      <pubDate>Sun, 01 Mar 2026 12:00:00 -0500</pubDate>
-      <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/tags/hugo/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>Guide</title>
-      <link>/tags/guide/</link>
-      <pubDate>Sun, 01 Mar 2026 12:00:00 -0500</pubDate>
-      <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/tags/guide/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
+    <lastBuildDate>Wed, 25 Feb 2026 16:00:00 -0500</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Volunteering</title>
       <link>/tags/volunteering/</link>
@@ -119,42 +83,6 @@
       <pubDate>Wed, 18 Feb 2026 11:00:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
       <guid isPermaLink="true">/tags/beginners/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>Research</title>
-      <link>/tags/research/</link>
-      <pubDate>Tue, 10 Feb 2026 14:30:00 -0500</pubDate>
-      <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/tags/research/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>Focus</title>
-      <link>/tags/focus/</link>
-      <pubDate>Tue, 10 Feb 2026 14:30:00 -0500</pubDate>
-      <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/tags/focus/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>Education</title>
-      <link>/tags/education/</link>
-      <pubDate>Tue, 10 Feb 2026 14:30:00 -0500</pubDate>
-      <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/tags/education/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>Cognitive-Science</title>
-      <link>/tags/cognitive-science/</link>
-      <pubDate>Tue, 10 Feb 2026 14:30:00 -0500</pubDate>
-      <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/tags/cognitive-science/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

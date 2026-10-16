@@ -3,39 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2026-03-01T12:00:00-05:00</lastmod>
-  </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2026-03-01T12:00:00-05:00</lastmod>
-  </url><url>
-    <loc>/tags/guide/</loc>
-    <lastmod>2026-03-01T12:00:00-05:00</lastmod>
-  </url><url>
-    <loc>/tags/hugo/</loc>
-    <lastmod>2026-03-01T12:00:00-05:00</lastmod>
-  </url><url>
-    <loc>/posts/markdown-styling-and-syntax-guide/</loc>
-    <lastmod>2026-03-01T12:00:00-05:00</lastmod>
-  </url><url>
-    <loc>/tags/markdown/</loc>
-    <lastmod>2026-03-01T12:00:00-05:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2026-03-01T12:00:00-05:00</lastmod>
-  </url><url>
-    <loc>/tags/starter/</loc>
-    <lastmod>2026-03-01T12:00:00-05:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2026-03-01T12:00:00-05:00</lastmod>
-  </url><url>
-    <loc>/categories/tech/</loc>
-    <lastmod>2026-03-01T12:00:00-05:00</lastmod>
-  </url><url>
-    <loc>/categories/tutorials/</loc>
-    <lastmod>2026-03-01T12:00:00-05:00</lastmod>
+    <lastmod>2026-02-25T16:00:00-05:00</lastmod>
   </url><url>
     <loc>/tags/blankets/</loc>
+    <lastmod>2026-02-25T16:00:00-05:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
     <lastmod>2026-02-25T16:00:00-05:00</lastmod>
   </url><url>
     <loc>/categories/charity/</loc>
@@ -50,7 +23,13 @@
     <loc>/posts/crowdsourcing-warmth-project-linus/</loc>
     <lastmod>2026-02-25T16:00:00-05:00</lastmod>
   </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2026-02-25T16:00:00-05:00</lastmod>
+  </url><url>
     <loc>/tags/project-linus/</loc>
+    <lastmod>2026-02-25T16:00:00-05:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
     <lastmod>2026-02-25T16:00:00-05:00</lastmod>
   </url><url>
     <loc>/tags/volunteering/</loc>
@@ -74,26 +53,8 @@
     <loc>/tags/tutorial/</loc>
     <lastmod>2026-02-18T11:00:00-05:00</lastmod>
   </url><url>
-    <loc>/tags/cognitive-science/</loc>
-    <lastmod>2026-02-10T14:30:00-05:00</lastmod>
-  </url><url>
-    <loc>/tags/education/</loc>
-    <lastmod>2026-02-10T14:30:00-05:00</lastmod>
-  </url><url>
-    <loc>/tags/focus/</loc>
-    <lastmod>2026-02-10T14:30:00-05:00</lastmod>
-  </url><url>
-    <loc>/categories/productivity/</loc>
-    <lastmod>2026-02-10T14:30:00-05:00</lastmod>
-  </url><url>
-    <loc>/categories/research/</loc>
-    <lastmod>2026-02-10T14:30:00-05:00</lastmod>
-  </url><url>
-    <loc>/tags/research/</loc>
-    <lastmod>2026-02-10T14:30:00-05:00</lastmod>
-  </url><url>
-    <loc>/posts/the-science-of-productive-fidgeting/</loc>
-    <lastmod>2026-02-10T14:30:00-05:00</lastmod>
+    <loc>/categories/tutorials/</loc>
+    <lastmod>2026-02-18T11:00:00-05:00</lastmod>
   </url><url>
     <loc>/categories/announcements/</loc>
     <lastmod>2026-02-01T09:00:00-05:00</lastmod>
