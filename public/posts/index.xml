@@ -6,20 +6,20 @@
      xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Posts | Blanket Statement</title>
-    <link>//localhost:1313/posts/</link>
+    <link>/posts/</link>
     <description>Recent posts in Posts on Blanket Statement</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>blanketstatementproject@gmail.com (Blanket Statement Team)</managingEditor>
     <webMaster>blanketstatementproject@gmail.com (Blanket Statement Team)</webMaster>
     <copyright>Copyright © Blanket Statement 2026. All Rights Reserved.</copyright>
-    <lastBuildDate>Sun, 01 Mar 2026 12:00:00 -0500</lastBuildDate><atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Mar 2026 12:00:00 -0500</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo Markdown Styling &amp; Formatting Guide</title>
-      <link>//localhost:1313/posts/markdown-styling-and-syntax-guide/</link>
+      <link>/posts/markdown-styling-and-syntax-guide/</link>
       <pubDate>Sun, 01 Mar 2026 12:00:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">//localhost:1313/posts/markdown-styling-and-syntax-guide/</guid>
+      <guid isPermaLink="true">/posts/markdown-styling-and-syntax-guide/</guid>
       <description>A comprehensive showcase of typography, code highlighting, tables, quotes, and media formatting available in this Hugo blog starter.</description>
       <content:encoded><![CDATA[<p>This starter template includes rich formatting support for technical writing, tutorial posts, and personal blogging. Below is a preview of the typography and components.</p>
 <h2 id="headings--typography">Headings &amp; Typography</h2>
@@ -104,14 +104,14 @@
       <category>markdown</category>
       <category>guide</category>
       <category>starter</category>
-      <media:content url="//localhost:1313/img/knitted-squares.jpg" medium="image" />
+      <media:content url="/img/knitted-squares.jpg" medium="image" />
     </item>
     <item>
       <title>Crowdsourcing Warmth: Our Partnership with Project Linus</title>
-      <link>//localhost:1313/posts/crowdsourcing-warmth-project-linus/</link>
+      <link>/posts/crowdsourcing-warmth-project-linus/</link>
       <pubDate>Wed, 25 Feb 2026 16:00:00 -0500</pubDate>
       <dc:creator>Devorah</dc:creator>
-      <guid isPermaLink="true">//localhost:1313/posts/crowdsourcing-warmth-project-linus/</guid>
+      <guid isPermaLink="true">/posts/crowdsourcing-warmth-project-linus/</guid>
       <description>How individual squares from conference attendees around the country are joined together to create blankets for Project Linus.</description>
       <content:encoded><![CDATA[<p>What happens after you drop off your finished 7” x 9” square at the Pickcode booth?</p>
 <p>Every square donated to Blanket Statement becomes part of a larger community quilt. In this post, we take a look behind the scenes at how hundreds of individual contributions become cozy blankets for <strong>Project Linus</strong>.</p>
@@ -146,14 +146,14 @@
       <category>volunteering</category>
       <category>charity</category>
       <category>blankets</category>
-      <media:content url="//localhost:1313/img/yarn-logo.jpg" medium="image" />
+      <media:content url="/img/yarn-logo.jpg" medium="image" />
     </item>
     <item>
       <title>A Beginner&#39;s Guide to Knitting 7” x 9” Squares</title>
-      <link>//localhost:1313/posts/beginner-guide-to-knitting-squares/</link>
+      <link>/posts/beginner-guide-to-knitting-squares/</link>
       <pubDate>Wed, 18 Feb 2026 11:00:00 -0500</pubDate>
       <dc:creator>Devorah</dc:creator>
-      <guid isPermaLink="true">//localhost:1313/posts/beginner-guide-to-knitting-squares/</guid>
+      <guid isPermaLink="true">/posts/beginner-guide-to-knitting-squares/</guid>
       <description>Everything you need to know about casting on, garter stitch, gauge, and completing your first blanket block.</description>
       <content:encoded><![CDATA[<p>Never held a pair of knitting needles before? No problem! Knitting a 7” x 9” blanket block is the single best starter project. There are no complicated increases or decreases—just a straightforward rectangle worked in classic <strong>Garter Stitch</strong>.</p>
 <h2 id="materials-needed">Materials Needed</h2>
@@ -195,14 +195,14 @@
       <category>beginners</category>
       <category>tutorial</category>
       <category>howto</category>
-      <media:content url="//localhost:1313/img/balls-of-yarn.jpg" medium="image" />
+      <media:content url="/img/balls-of-yarn.jpg" medium="image" />
     </item>
     <item>
       <title>The Science of Productive Fidgeting</title>
-      <link>//localhost:1313/posts/the-science-of-productive-fidgeting/</link>
+      <link>/posts/the-science-of-productive-fidgeting/</link>
       <pubDate>Tue, 10 Feb 2026 14:30:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">//localhost:1313/posts/the-science-of-productive-fidgeting/</guid>
+      <guid isPermaLink="true">/posts/the-science-of-productive-fidgeting/</guid>
       <description>Exploring cognitive research on motor movement, attention span, working memory, and why tactile tasks enhance listening.</description>
       <content:encoded><![CDATA[<p>Why do so many educators, engineers, and researchers knit during long seminars? Is it a distraction, or is it actually a powerful tool for deep listening?</p>
 <p>Cognitive science has increasingly validated what craft enthusiasts have known intuitively for decades: <strong>low-intensity tactile activity can significantly enhance working memory and auditory retention.</strong></p>
@@ -266,14 +266,14 @@
       <category>education</category>
       <category>focus</category>
       <category>research</category>
-      <media:content url="//localhost:1313/img/knitted-squares.jpg" medium="image" />
+      <media:content url="/img/knitted-squares.jpg" medium="image" />
     </item>
     <item>
       <title>Welcome to Blanket Statement</title>
-      <link>//localhost:1313/posts/welcome-to-blanket-statement/</link>
+      <link>/posts/welcome-to-blanket-statement/</link>
       <pubDate>Sun, 01 Feb 2026 09:00:00 -0500</pubDate>
       <dc:creator>Devorah</dc:creator>
-      <guid isPermaLink="true">//localhost:1313/posts/welcome-to-blanket-statement/</guid>
+      <guid isPermaLink="true">/posts/welcome-to-blanket-statement/</guid>
       <description>Why we started Blanket Statement and how we are turning conference fidgeting into warm blankets for children in need.</description>
       <content:encoded><![CDATA[<p>Welcome to <strong>Blanket Statement</strong>!</p>
 <p>If you&rsquo;ve ever attended an all-day conference, faculty meeting, or professional development workshop, you know how hard it can be to sit motionless for hours at a time. Many of us are kinesthetic learners: we need our hands engaged in rhythmic, low-cognitive-load activity to keep our minds alert and receptive.</p>
@@ -300,7 +300,7 @@
       <category>knitting</category>
       <category>fidgeting</category>
       <category>welcome</category>
-      <media:content url="//localhost:1313/img/yarn-logo.jpg" medium="image" />
+      <media:content url="/img/yarn-logo.jpg" medium="image" />
     </item>
   </channel>
 </rss>

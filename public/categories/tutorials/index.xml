@@ -6,20 +6,20 @@
      xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Tutorials | Blanket Statement</title>
-    <link>//localhost:1313/categories/tutorials/</link>
+    <link>/categories/tutorials/</link>
     <description>Recent posts in Tutorials on Blanket Statement</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>blanketstatementproject@gmail.com (Blanket Statement Team)</managingEditor>
     <webMaster>blanketstatementproject@gmail.com (Blanket Statement Team)</webMaster>
     <copyright>Copyright © Blanket Statement 2026. All Rights Reserved.</copyright>
-    <lastBuildDate>Sun, 01 Mar 2026 12:00:00 -0500</lastBuildDate><atom:link href="//localhost:1313/categories/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Mar 2026 12:00:00 -0500</lastBuildDate><atom:link href="/categories/tutorials/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo Markdown Styling &amp; Formatting Guide</title>
-      <link>//localhost:1313/posts/markdown-styling-and-syntax-guide/</link>
+      <link>/posts/markdown-styling-and-syntax-guide/</link>
       <pubDate>Sun, 01 Mar 2026 12:00:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">//localhost:1313/posts/markdown-styling-and-syntax-guide/</guid>
+      <guid isPermaLink="true">/posts/markdown-styling-and-syntax-guide/</guid>
       <description>A comprehensive showcase of typography, code highlighting, tables, quotes, and media formatting available in this Hugo blog starter.</description>
       <content:encoded><![CDATA[<p>This starter template includes rich formatting support for technical writing, tutorial posts, and personal blogging. Below is a preview of the typography and components.</p>
 <h2 id="headings--typography">Headings &amp; Typography</h2>
@@ -104,14 +104,14 @@
       <category>markdown</category>
       <category>guide</category>
       <category>starter</category>
-      <media:content url="//localhost:1313/img/knitted-squares.jpg" medium="image" />
+      <media:content url="/img/knitted-squares.jpg" medium="image" />
     </item>
     <item>
       <title>A Beginner&#39;s Guide to Knitting 7” x 9” Squares</title>
-      <link>//localhost:1313/posts/beginner-guide-to-knitting-squares/</link>
+      <link>/posts/beginner-guide-to-knitting-squares/</link>
       <pubDate>Wed, 18 Feb 2026 11:00:00 -0500</pubDate>
       <dc:creator>Devorah</dc:creator>
-      <guid isPermaLink="true">//localhost:1313/posts/beginner-guide-to-knitting-squares/</guid>
+      <guid isPermaLink="true">/posts/beginner-guide-to-knitting-squares/</guid>
       <description>Everything you need to know about casting on, garter stitch, gauge, and completing your first blanket block.</description>
       <content:encoded><![CDATA[<p>Never held a pair of knitting needles before? No problem! Knitting a 7” x 9” blanket block is the single best starter project. There are no complicated increases or decreases—just a straightforward rectangle worked in classic <strong>Garter Stitch</strong>.</p>
 <h2 id="materials-needed">Materials Needed</h2>
@@ -153,7 +153,7 @@
       <category>beginners</category>
       <category>tutorial</category>
       <category>howto</category>
-      <media:content url="//localhost:1313/img/balls-of-yarn.jpg" medium="image" />
+      <media:content url="/img/balls-of-yarn.jpg" medium="image" />
     </item>
   </channel>
 </rss>

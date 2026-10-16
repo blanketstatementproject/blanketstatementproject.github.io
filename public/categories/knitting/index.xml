@@ -6,20 +6,20 @@
      xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Knitting | Blanket Statement</title>
-    <link>//localhost:1313/categories/knitting/</link>
+    <link>/categories/knitting/</link>
     <description>Recent posts in Knitting on Blanket Statement</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>blanketstatementproject@gmail.com (Blanket Statement Team)</managingEditor>
     <webMaster>blanketstatementproject@gmail.com (Blanket Statement Team)</webMaster>
     <copyright>Copyright © Blanket Statement 2026. All Rights Reserved.</copyright>
-    <lastBuildDate>Wed, 18 Feb 2026 11:00:00 -0500</lastBuildDate><atom:link href="//localhost:1313/categories/knitting/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Feb 2026 11:00:00 -0500</lastBuildDate><atom:link href="/categories/knitting/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Beginner&#39;s Guide to Knitting 7” x 9” Squares</title>
-      <link>//localhost:1313/posts/beginner-guide-to-knitting-squares/</link>
+      <link>/posts/beginner-guide-to-knitting-squares/</link>
       <pubDate>Wed, 18 Feb 2026 11:00:00 -0500</pubDate>
       <dc:creator>Devorah</dc:creator>
-      <guid isPermaLink="true">//localhost:1313/posts/beginner-guide-to-knitting-squares/</guid>
+      <guid isPermaLink="true">/posts/beginner-guide-to-knitting-squares/</guid>
       <description>Everything you need to know about casting on, garter stitch, gauge, and completing your first blanket block.</description>
       <content:encoded><![CDATA[<p>Never held a pair of knitting needles before? No problem! Knitting a 7” x 9” blanket block is the single best starter project. There are no complicated increases or decreases—just a straightforward rectangle worked in classic <strong>Garter Stitch</strong>.</p>
 <h2 id="materials-needed">Materials Needed</h2>
@@ -61,7 +61,7 @@
       <category>beginners</category>
       <category>tutorial</category>
       <category>howto</category>
-      <media:content url="//localhost:1313/img/balls-of-yarn.jpg" medium="image" />
+      <media:content url="/img/balls-of-yarn.jpg" medium="image" />
     </item>
   </channel>
 </rss>

@@ -6,20 +6,20 @@
      xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Research | Blanket Statement</title>
-    <link>//localhost:1313/tags/research/</link>
+    <link>/tags/research/</link>
     <description>Recent posts in Research on Blanket Statement</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>blanketstatementproject@gmail.com (Blanket Statement Team)</managingEditor>
     <webMaster>blanketstatementproject@gmail.com (Blanket Statement Team)</webMaster>
     <copyright>Copyright © Blanket Statement 2026. All Rights Reserved.</copyright>
-    <lastBuildDate>Tue, 10 Feb 2026 14:30:00 -0500</lastBuildDate><atom:link href="//localhost:1313/tags/research/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Feb 2026 14:30:00 -0500</lastBuildDate><atom:link href="/tags/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Science of Productive Fidgeting</title>
-      <link>//localhost:1313/posts/the-science-of-productive-fidgeting/</link>
+      <link>/posts/the-science-of-productive-fidgeting/</link>
       <pubDate>Tue, 10 Feb 2026 14:30:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">//localhost:1313/posts/the-science-of-productive-fidgeting/</guid>
+      <guid isPermaLink="true">/posts/the-science-of-productive-fidgeting/</guid>
       <description>Exploring cognitive research on motor movement, attention span, working memory, and why tactile tasks enhance listening.</description>
       <content:encoded><![CDATA[<p>Why do so many educators, engineers, and researchers knit during long seminars? Is it a distraction, or is it actually a powerful tool for deep listening?</p>
 <p>Cognitive science has increasingly validated what craft enthusiasts have known intuitively for decades: <strong>low-intensity tactile activity can significantly enhance working memory and auditory retention.</strong></p>
@@ -83,7 +83,7 @@
       <category>education</category>
       <category>focus</category>
       <category>research</category>
-      <media:content url="//localhost:1313/img/knitted-squares.jpg" medium="image" />
+      <media:content url="/img/knitted-squares.jpg" medium="image" />
     </item>
   </channel>
 </rss>
