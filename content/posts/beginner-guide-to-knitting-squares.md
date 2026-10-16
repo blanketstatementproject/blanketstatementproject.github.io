@@ -9,11 +9,11 @@ tags: ["knitting", "beginners", "tutorial", "howto"]
 author: "Devorah"
 ---
 
-Never held a pair of knitting needles before? No problem! Knitting a 7” x 9” blanket block is the single best starter project. There are no complicated increases or decreases—just a straightforward rectangle worked in classic **Garter Stitch**.
+Never held a pair of knitting needles before? No problem! Knitting a 7” x 9” blanket block is a great starter project. There are no increases or decreases—just a straightforward rectangle worked in classic **Garter Stitch**.
 
 ## Materials Needed
 
-* **Yarn**: 1 skein worsted weight (medium #4) acrylic or washable wool.
+* **Yarn**: 1 ball worsted weight (medium #4) acrylic yarn.
 * **Needles**: US Size 8 (5.0 mm) or Size 9 (5.5 mm).
 * **Ruler**: The ruler printed on the ball band, or any standard measuring tape.
 * **Tapestry Needle**: To weave in your yarn ends.
@@ -23,13 +23,7 @@ Never held a pair of knitting needles before? No problem! Knitting a 7” x 9”
 ## Step-by-Step Instructions
 
 ### Step 1: Cast On
-Cast on approximately **28 to 34 stitches** (depending on your needle size and yarn tension).
-
-```text
-[ Needle ] ===o===o===o===o===o===o===o=== [ Cast on 30 sts ]
-```
-
-*Tip: Measure your cast-on row against the ball band ruler. If it is 7 inches wide, you are ready to knit!*
+Cast on **30 stitches**.
 
 ### Step 2: The Garter Stitch
 Every single row is worked in the **knit stitch**:
@@ -38,6 +32,7 @@ Every single row is worked in the **knit stitch**:
 2. Wrap working yarn counter-clockwise around the right needle.
 3. Pull the new loop through and slide the old stitch off the left needle.
 4. Repeat across the row!
+5. Hint: there are LOTS of videos available!
 
 ### Step 3: Knit Until 9 Inches
 Continue knitting every row until the piece measures **9 inches** from your cast-on edge. *(Note: 9” x 7” is also fine—direction doesn't matter!)*
