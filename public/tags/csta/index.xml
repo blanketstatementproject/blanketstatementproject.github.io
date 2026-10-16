@@ -6,20 +6,20 @@
      xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Csta | Blanket Statement</title>
-    <link>/tags/csta/</link>
+    <link>//localhost:1313/tags/csta/</link>
     <description>Recent posts in Csta on Blanket Statement</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>blanketstatementproject@gmail.com (Blanket Statement Team)</managingEditor>
     <webMaster>blanketstatementproject@gmail.com (Blanket Statement Team)</webMaster>
     <copyright>Copyright © Blanket Statement 2026. All Rights Reserved.</copyright>
-    <lastBuildDate>Sun, 01 Feb 2026 09:00:00 -0500</lastBuildDate><atom:link href="/tags/csta/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Feb 2026 09:00:00 -0500</lastBuildDate><atom:link href="//localhost:1313/tags/csta/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Welcome to Blanket Statement</title>
-      <link>/posts/welcome-to-blanket-statement/</link>
+      <link>//localhost:1313/posts/welcome-to-blanket-statement/</link>
       <pubDate>Sun, 01 Feb 2026 09:00:00 -0500</pubDate>
       <dc:creator>Devorah</dc:creator>
-      <guid isPermaLink="true">/posts/welcome-to-blanket-statement/</guid>
+      <guid isPermaLink="true">//localhost:1313/posts/welcome-to-blanket-statement/</guid>
       <description>Why we started Blanket Statement and how we are turning conference fidgeting into warm blankets for children in need.</description>
       <content:encoded><![CDATA[<p>Welcome to <strong>Blanket Statement</strong>!</p>
 <p>If you&rsquo;ve ever attended an all-day conference, faculty meeting, or professional development workshop, you know how hard it can be to sit motionless for hours at a time. Many of us are kinesthetic learners: we need our hands engaged in rhythmic, low-cognitive-load activity to keep our minds alert and receptive.</p>
@@ -46,7 +46,7 @@
       <category>knitting</category>
       <category>fidgeting</category>
       <category>welcome</category>
-      <media:content url="/img/yarn-logo.jpg" medium="image" />
+      <media:content url="//localhost:1313/img/yarn-logo.jpg" medium="image" />
     </item>
   </channel>
 </rss>

@@ -6,182 +6,182 @@
      xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Tags | Blanket Statement</title>
-    <link>/tags/</link>
+    <link>//localhost:1313/tags/</link>
     <description>Recent posts in Tags on Blanket Statement</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>blanketstatementproject@gmail.com (Blanket Statement Team)</managingEditor>
     <webMaster>blanketstatementproject@gmail.com (Blanket Statement Team)</webMaster>
     <copyright>Copyright © Blanket Statement 2026. All Rights Reserved.</copyright>
-    <lastBuildDate>Sun, 01 Mar 2026 12:00:00 -0500</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Mar 2026 12:00:00 -0500</lastBuildDate><atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Starter</title>
-      <link>/tags/starter/</link>
+      <link>//localhost:1313/tags/starter/</link>
       <pubDate>Sun, 01 Mar 2026 12:00:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/tags/starter/</guid>
+      <guid isPermaLink="true">//localhost:1313/tags/starter/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Markdown</title>
-      <link>/tags/markdown/</link>
+      <link>//localhost:1313/tags/markdown/</link>
       <pubDate>Sun, 01 Mar 2026 12:00:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/tags/markdown/</guid>
+      <guid isPermaLink="true">//localhost:1313/tags/markdown/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Hugo</title>
-      <link>/tags/hugo/</link>
+      <link>//localhost:1313/tags/hugo/</link>
       <pubDate>Sun, 01 Mar 2026 12:00:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/tags/hugo/</guid>
+      <guid isPermaLink="true">//localhost:1313/tags/hugo/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Guide</title>
-      <link>/tags/guide/</link>
+      <link>//localhost:1313/tags/guide/</link>
       <pubDate>Sun, 01 Mar 2026 12:00:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/tags/guide/</guid>
+      <guid isPermaLink="true">//localhost:1313/tags/guide/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Volunteering</title>
-      <link>/tags/volunteering/</link>
+      <link>//localhost:1313/tags/volunteering/</link>
       <pubDate>Wed, 25 Feb 2026 16:00:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/tags/volunteering/</guid>
+      <guid isPermaLink="true">//localhost:1313/tags/volunteering/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Project-Linus</title>
-      <link>/tags/project-linus/</link>
+      <link>//localhost:1313/tags/project-linus/</link>
       <pubDate>Wed, 25 Feb 2026 16:00:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/tags/project-linus/</guid>
+      <guid isPermaLink="true">//localhost:1313/tags/project-linus/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Charity</title>
-      <link>/tags/charity/</link>
+      <link>//localhost:1313/tags/charity/</link>
       <pubDate>Wed, 25 Feb 2026 16:00:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/tags/charity/</guid>
+      <guid isPermaLink="true">//localhost:1313/tags/charity/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Blankets</title>
-      <link>/tags/blankets/</link>
+      <link>//localhost:1313/tags/blankets/</link>
       <pubDate>Wed, 25 Feb 2026 16:00:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/tags/blankets/</guid>
+      <guid isPermaLink="true">//localhost:1313/tags/blankets/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Tutorial</title>
-      <link>/tags/tutorial/</link>
+      <link>//localhost:1313/tags/tutorial/</link>
       <pubDate>Wed, 18 Feb 2026 11:00:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/tags/tutorial/</guid>
+      <guid isPermaLink="true">//localhost:1313/tags/tutorial/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Knitting</title>
-      <link>/tags/knitting/</link>
+      <link>//localhost:1313/tags/knitting/</link>
       <pubDate>Wed, 18 Feb 2026 11:00:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/tags/knitting/</guid>
+      <guid isPermaLink="true">//localhost:1313/tags/knitting/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Howto</title>
-      <link>/tags/howto/</link>
+      <link>//localhost:1313/tags/howto/</link>
       <pubDate>Wed, 18 Feb 2026 11:00:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/tags/howto/</guid>
+      <guid isPermaLink="true">//localhost:1313/tags/howto/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Beginners</title>
-      <link>/tags/beginners/</link>
+      <link>//localhost:1313/tags/beginners/</link>
       <pubDate>Wed, 18 Feb 2026 11:00:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/tags/beginners/</guid>
+      <guid isPermaLink="true">//localhost:1313/tags/beginners/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Research</title>
-      <link>/tags/research/</link>
+      <link>//localhost:1313/tags/research/</link>
       <pubDate>Tue, 10 Feb 2026 14:30:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/tags/research/</guid>
+      <guid isPermaLink="true">//localhost:1313/tags/research/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Focus</title>
-      <link>/tags/focus/</link>
+      <link>//localhost:1313/tags/focus/</link>
       <pubDate>Tue, 10 Feb 2026 14:30:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/tags/focus/</guid>
+      <guid isPermaLink="true">//localhost:1313/tags/focus/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Education</title>
-      <link>/tags/education/</link>
+      <link>//localhost:1313/tags/education/</link>
       <pubDate>Tue, 10 Feb 2026 14:30:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/tags/education/</guid>
+      <guid isPermaLink="true">//localhost:1313/tags/education/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Cognitive-Science</title>
-      <link>/tags/cognitive-science/</link>
+      <link>//localhost:1313/tags/cognitive-science/</link>
       <pubDate>Tue, 10 Feb 2026 14:30:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/tags/cognitive-science/</guid>
+      <guid isPermaLink="true">//localhost:1313/tags/cognitive-science/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Welcome</title>
-      <link>/tags/welcome/</link>
+      <link>//localhost:1313/tags/welcome/</link>
       <pubDate>Sun, 01 Feb 2026 09:00:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/tags/welcome/</guid>
+      <guid isPermaLink="true">//localhost:1313/tags/welcome/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Fidgeting</title>
-      <link>/tags/fidgeting/</link>
+      <link>//localhost:1313/tags/fidgeting/</link>
       <pubDate>Sun, 01 Feb 2026 09:00:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/tags/fidgeting/</guid>
+      <guid isPermaLink="true">//localhost:1313/tags/fidgeting/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Csta</title>
-      <link>/tags/csta/</link>
+      <link>//localhost:1313/tags/csta/</link>
       <pubDate>Sun, 01 Feb 2026 09:00:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/tags/csta/</guid>
+      <guid isPermaLink="true">//localhost:1313/tags/csta/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

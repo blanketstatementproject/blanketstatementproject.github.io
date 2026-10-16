@@ -2,118 +2,118 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2026-03-01T12:00:00-05:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
     <lastmod>2026-03-01T12:00:00-05:00</lastmod>
   </url><url>
-    <loc>/tags/guide/</loc>
+    <loc>//localhost:1313/tags/guide/</loc>
     <lastmod>2026-03-01T12:00:00-05:00</lastmod>
   </url><url>
-    <loc>/tags/hugo/</loc>
+    <loc>//localhost:1313/tags/hugo/</loc>
     <lastmod>2026-03-01T12:00:00-05:00</lastmod>
   </url><url>
-    <loc>/posts/markdown-styling-and-syntax-guide/</loc>
+    <loc>//localhost:1313/posts/markdown-styling-and-syntax-guide/</loc>
     <lastmod>2026-03-01T12:00:00-05:00</lastmod>
   </url><url>
-    <loc>/tags/markdown/</loc>
+    <loc>//localhost:1313/tags/markdown/</loc>
     <lastmod>2026-03-01T12:00:00-05:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>//localhost:1313/posts/</loc>
     <lastmod>2026-03-01T12:00:00-05:00</lastmod>
   </url><url>
-    <loc>/tags/starter/</loc>
+    <loc>//localhost:1313/tags/starter/</loc>
     <lastmod>2026-03-01T12:00:00-05:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
     <lastmod>2026-03-01T12:00:00-05:00</lastmod>
   </url><url>
-    <loc>/categories/tech/</loc>
+    <loc>//localhost:1313/categories/tech/</loc>
     <lastmod>2026-03-01T12:00:00-05:00</lastmod>
   </url><url>
-    <loc>/categories/tutorials/</loc>
+    <loc>//localhost:1313/categories/tutorials/</loc>
     <lastmod>2026-03-01T12:00:00-05:00</lastmod>
   </url><url>
-    <loc>/tags/blankets/</loc>
+    <loc>//localhost:1313/tags/blankets/</loc>
     <lastmod>2026-02-25T16:00:00-05:00</lastmod>
   </url><url>
-    <loc>/categories/charity/</loc>
+    <loc>//localhost:1313/categories/charity/</loc>
     <lastmod>2026-02-25T16:00:00-05:00</lastmod>
   </url><url>
-    <loc>/tags/charity/</loc>
+    <loc>//localhost:1313/tags/charity/</loc>
     <lastmod>2026-02-25T16:00:00-05:00</lastmod>
   </url><url>
-    <loc>/categories/community/</loc>
+    <loc>//localhost:1313/categories/community/</loc>
     <lastmod>2026-02-25T16:00:00-05:00</lastmod>
   </url><url>
-    <loc>/posts/crowdsourcing-warmth-project-linus/</loc>
+    <loc>//localhost:1313/posts/crowdsourcing-warmth-project-linus/</loc>
     <lastmod>2026-02-25T16:00:00-05:00</lastmod>
   </url><url>
-    <loc>/tags/project-linus/</loc>
+    <loc>//localhost:1313/tags/project-linus/</loc>
     <lastmod>2026-02-25T16:00:00-05:00</lastmod>
   </url><url>
-    <loc>/tags/volunteering/</loc>
+    <loc>//localhost:1313/tags/volunteering/</loc>
     <lastmod>2026-02-25T16:00:00-05:00</lastmod>
   </url><url>
-    <loc>/posts/beginner-guide-to-knitting-squares/</loc>
+    <loc>//localhost:1313/posts/beginner-guide-to-knitting-squares/</loc>
     <lastmod>2026-02-18T11:00:00-05:00</lastmod>
   </url><url>
-    <loc>/tags/beginners/</loc>
+    <loc>//localhost:1313/tags/beginners/</loc>
     <lastmod>2026-02-18T11:00:00-05:00</lastmod>
   </url><url>
-    <loc>/tags/howto/</loc>
+    <loc>//localhost:1313/tags/howto/</loc>
     <lastmod>2026-02-18T11:00:00-05:00</lastmod>
   </url><url>
-    <loc>/categories/knitting/</loc>
+    <loc>//localhost:1313/categories/knitting/</loc>
     <lastmod>2026-02-18T11:00:00-05:00</lastmod>
   </url><url>
-    <loc>/tags/knitting/</loc>
+    <loc>//localhost:1313/tags/knitting/</loc>
     <lastmod>2026-02-18T11:00:00-05:00</lastmod>
   </url><url>
-    <loc>/tags/tutorial/</loc>
+    <loc>//localhost:1313/tags/tutorial/</loc>
     <lastmod>2026-02-18T11:00:00-05:00</lastmod>
   </url><url>
-    <loc>/tags/cognitive-science/</loc>
+    <loc>//localhost:1313/tags/cognitive-science/</loc>
     <lastmod>2026-02-10T14:30:00-05:00</lastmod>
   </url><url>
-    <loc>/tags/education/</loc>
+    <loc>//localhost:1313/tags/education/</loc>
     <lastmod>2026-02-10T14:30:00-05:00</lastmod>
   </url><url>
-    <loc>/tags/focus/</loc>
+    <loc>//localhost:1313/tags/focus/</loc>
     <lastmod>2026-02-10T14:30:00-05:00</lastmod>
   </url><url>
-    <loc>/categories/productivity/</loc>
+    <loc>//localhost:1313/categories/productivity/</loc>
     <lastmod>2026-02-10T14:30:00-05:00</lastmod>
   </url><url>
-    <loc>/categories/research/</loc>
+    <loc>//localhost:1313/categories/research/</loc>
     <lastmod>2026-02-10T14:30:00-05:00</lastmod>
   </url><url>
-    <loc>/tags/research/</loc>
+    <loc>//localhost:1313/tags/research/</loc>
     <lastmod>2026-02-10T14:30:00-05:00</lastmod>
   </url><url>
-    <loc>/posts/the-science-of-productive-fidgeting/</loc>
+    <loc>//localhost:1313/posts/the-science-of-productive-fidgeting/</loc>
     <lastmod>2026-02-10T14:30:00-05:00</lastmod>
   </url><url>
-    <loc>/categories/announcements/</loc>
+    <loc>//localhost:1313/categories/announcements/</loc>
     <lastmod>2026-02-01T09:00:00-05:00</lastmod>
   </url><url>
-    <loc>/tags/csta/</loc>
+    <loc>//localhost:1313/tags/csta/</loc>
     <lastmod>2026-02-01T09:00:00-05:00</lastmod>
   </url><url>
-    <loc>/tags/fidgeting/</loc>
+    <loc>//localhost:1313/tags/fidgeting/</loc>
     <lastmod>2026-02-01T09:00:00-05:00</lastmod>
   </url><url>
-    <loc>/tags/welcome/</loc>
+    <loc>//localhost:1313/tags/welcome/</loc>
     <lastmod>2026-02-01T09:00:00-05:00</lastmod>
   </url><url>
-    <loc>/posts/welcome-to-blanket-statement/</loc>
+    <loc>//localhost:1313/posts/welcome-to-blanket-statement/</loc>
     <lastmod>2026-02-01T09:00:00-05:00</lastmod>
   </url><url>
-    <loc>/about/</loc>
+    <loc>//localhost:1313/about/</loc>
     <lastmod>2026-01-15T10:00:00-05:00</lastmod>
   </url><url>
-    <loc>/contact/</loc>
+    <loc>//localhost:1313/contact/</loc>
     <lastmod>2026-01-15T10:00:00-05:00</lastmod>
   </url>
 </urlset>

@@ -6,83 +6,83 @@
      xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Categories | Blanket Statement</title>
-    <link>/categories/</link>
+    <link>//localhost:1313/categories/</link>
     <description>Recent posts in Categories on Blanket Statement</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>blanketstatementproject@gmail.com (Blanket Statement Team)</managingEditor>
     <webMaster>blanketstatementproject@gmail.com (Blanket Statement Team)</webMaster>
     <copyright>Copyright © Blanket Statement 2026. All Rights Reserved.</copyright>
-    <lastBuildDate>Sun, 01 Mar 2026 12:00:00 -0500</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Mar 2026 12:00:00 -0500</lastBuildDate><atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tutorials</title>
-      <link>/categories/tutorials/</link>
+      <link>//localhost:1313/categories/tutorials/</link>
       <pubDate>Sun, 01 Mar 2026 12:00:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/categories/tutorials/</guid>
+      <guid isPermaLink="true">//localhost:1313/categories/tutorials/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Tech</title>
-      <link>/categories/tech/</link>
+      <link>//localhost:1313/categories/tech/</link>
       <pubDate>Sun, 01 Mar 2026 12:00:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/categories/tech/</guid>
+      <guid isPermaLink="true">//localhost:1313/categories/tech/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Community</title>
-      <link>/categories/community/</link>
+      <link>//localhost:1313/categories/community/</link>
       <pubDate>Wed, 25 Feb 2026 16:00:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/categories/community/</guid>
+      <guid isPermaLink="true">//localhost:1313/categories/community/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Charity</title>
-      <link>/categories/charity/</link>
+      <link>//localhost:1313/categories/charity/</link>
       <pubDate>Wed, 25 Feb 2026 16:00:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/categories/charity/</guid>
+      <guid isPermaLink="true">//localhost:1313/categories/charity/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Knitting</title>
-      <link>/categories/knitting/</link>
+      <link>//localhost:1313/categories/knitting/</link>
       <pubDate>Wed, 18 Feb 2026 11:00:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/categories/knitting/</guid>
+      <guid isPermaLink="true">//localhost:1313/categories/knitting/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Research</title>
-      <link>/categories/research/</link>
+      <link>//localhost:1313/categories/research/</link>
       <pubDate>Tue, 10 Feb 2026 14:30:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/categories/research/</guid>
+      <guid isPermaLink="true">//localhost:1313/categories/research/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Productivity</title>
-      <link>/categories/productivity/</link>
+      <link>//localhost:1313/categories/productivity/</link>
       <pubDate>Tue, 10 Feb 2026 14:30:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/categories/productivity/</guid>
+      <guid isPermaLink="true">//localhost:1313/categories/productivity/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Announcements</title>
-      <link>/categories/announcements/</link>
+      <link>//localhost:1313/categories/announcements/</link>
       <pubDate>Sun, 01 Feb 2026 09:00:00 -0500</pubDate>
       <dc:creator>Blanket Statement Team</dc:creator>
-      <guid isPermaLink="true">/categories/announcements/</guid>
+      <guid isPermaLink="true">//localhost:1313/categories/announcements/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

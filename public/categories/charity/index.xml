@@ -6,20 +6,20 @@
      xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Charity | Blanket Statement</title>
-    <link>/categories/charity/</link>
+    <link>//localhost:1313/categories/charity/</link>
     <description>Recent posts in Charity on Blanket Statement</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>blanketstatementproject@gmail.com (Blanket Statement Team)</managingEditor>
     <webMaster>blanketstatementproject@gmail.com (Blanket Statement Team)</webMaster>
     <copyright>Copyright © Blanket Statement 2026. All Rights Reserved.</copyright>
-    <lastBuildDate>Wed, 25 Feb 2026 16:00:00 -0500</lastBuildDate><atom:link href="/categories/charity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Feb 2026 16:00:00 -0500</lastBuildDate><atom:link href="//localhost:1313/categories/charity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Crowdsourcing Warmth: Our Partnership with Project Linus</title>
-      <link>/posts/crowdsourcing-warmth-project-linus/</link>
+      <link>//localhost:1313/posts/crowdsourcing-warmth-project-linus/</link>
       <pubDate>Wed, 25 Feb 2026 16:00:00 -0500</pubDate>
       <dc:creator>Devorah</dc:creator>
-      <guid isPermaLink="true">/posts/crowdsourcing-warmth-project-linus/</guid>
+      <guid isPermaLink="true">//localhost:1313/posts/crowdsourcing-warmth-project-linus/</guid>
       <description>How individual squares from conference attendees around the country are joined together to create blankets for Project Linus.</description>
       <content:encoded><![CDATA[<p>What happens after you drop off your finished 7” x 9” square at the Pickcode booth?</p>
 <p>Every square donated to Blanket Statement becomes part of a larger community quilt. In this post, we take a look behind the scenes at how hundreds of individual contributions become cozy blankets for <strong>Project Linus</strong>.</p>
@@ -54,7 +54,7 @@
       <category>volunteering</category>
       <category>charity</category>
       <category>blankets</category>
-      <media:content url="/img/yarn-logo.jpg" medium="image" />
+      <media:content url="//localhost:1313/img/yarn-logo.jpg" medium="image" />
     </item>
   </channel>
 </rss>
