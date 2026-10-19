@@ -2,7 +2,7 @@
 title: "Make a Blanket Statement at the CSTA New York Fall Conference"
 date: 2026-10-19T00:00:00-05:00
 draft: false
-description: "Preview blurb for CSTA NY 2026"
+description: "Preview for CSTA NY 2026"
 image: "img/blanket-csta-2026.jpg"
 categories: ["Knitting"]
 tags: ["knitting", ]
